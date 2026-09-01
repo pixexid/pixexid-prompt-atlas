@@ -33,14 +33,15 @@ Compose a playful brand campaign that turns a character reference into a life-si
 <a href="https://pixexid.com/api/creative-assets/d6b5f85f-fbcd-54fc-a157-f095883d6fad/public?imageId=8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c"><img src="https://pixexid.com/api/creative-assets/d6b5f85f-fbcd-54fc-a157-f095883d6fad/public?imageId=8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c" alt="A landscape, folded." width="150"></a><br>
 <sub>A landscape, folded.</sub>
 </td>
-<td align="center" valign="middle"><strong>→</strong></td>
-<td align="center" valign="top">
-<strong>Final AI Image Composition</strong><br>
-<a href="https://pixexid.com/i/mara-brings-tavi-to-life-8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c"><img src="https://images.pixexid.com/mara-brings-tavi-to-life-8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c.jpg" alt="Mara Brings Tavi to Life" width="340"></a><br>
-<sub>Mara Brings Tavi to Life</sub>
-</td>
 </tr>
 </table>
+
+<p align="center"><strong>Ordered references → Final AI Image Composition</strong></p>
+
+<p align="center">
+<a href="https://pixexid.com/i/mara-brings-tavi-to-life-8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c"><img src="https://images.pixexid.com/mara-brings-tavi-to-life-8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c.jpg" alt="Mara Brings Tavi to Life" width="760"></a><br>
+<strong>Mara Brings Tavi to Life</strong>
+</p>
 
 Role labels and order come directly from the public Pixexid recipe.
 

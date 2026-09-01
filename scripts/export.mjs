@@ -143,14 +143,15 @@ function recipeVisual(item) {
   return `<table>
 <tr>
 ${inputs}
-<td align="center" valign="middle"><strong>→</strong></td>
-<td align="center" valign="top">
-<strong>Final AI Image Composition</strong><br>
-<a href="${item.canonical_url}"><img src="${item.image_url}" alt="${htmlEscape(item.title)}" width="340"></a><br>
-<sub>${htmlEscape(item.title)}</sub>
-</td>
 </tr>
-</table>`;
+</table>
+
+<p align="center"><strong>Ordered references → Final AI Image Composition</strong></p>
+
+<p align="center">
+<a href="${item.canonical_url}"><img src="${item.image_url}" alt="${htmlEscape(item.title)}" width="760"></a><br>
+<strong>${htmlEscape(item.title)}</strong>
+</p>`;
 }
 
 function caseMarkdown(item) {

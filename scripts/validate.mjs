@@ -56,6 +56,17 @@ for (const item of catalog.cases) {
     assert(readme.split(`src="${imageUrl}"`).length === 2, `README image missing or duplicated: ${item.id}`);
     assert(casePage.split(`src="${imageUrl}"`).length === 2, `Case image missing or duplicated: ${item.id}`);
   }
+  for (const [name, page] of [["README", readme], ["Case", casePage]]) {
+    const finalIndex = page.indexOf(`src="${item.image_url}"`);
+    const tableStart = page.lastIndexOf("<table>", finalIndex);
+    const tableEnd = page.lastIndexOf("</table>", finalIndex);
+    const transition = page.lastIndexOf("Ordered references → Final AI Image Composition", finalIndex);
+    assert(tableStart >= 0 && tableStart < tableEnd && tableEnd < transition && transition < finalIndex, `${name} layout is not stacked: ${item.id}`);
+    for (const reference of item.references) {
+      const referenceIndex = page.lastIndexOf(`src="${reference.image_url}"`, finalIndex);
+      assert(referenceIndex > tableStart && referenceIndex < tableEnd, `${name} reference outside strip: ${item.id}`);
+    }
+  }
 }
 
 if (process.argv.includes("--links")) {

@@ -45,14 +45,15 @@ Compose a playful brand campaign that turns a character reference into a life-si
 <a href="https://pixexid.com/api/creative-assets/d6b5f85f-fbcd-54fc-a157-f095883d6fad/public?imageId=8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c"><img src="https://pixexid.com/api/creative-assets/d6b5f85f-fbcd-54fc-a157-f095883d6fad/public?imageId=8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c" alt="A landscape, folded." width="150"></a><br>
 <sub>A landscape, folded.</sub>
 </td>
-<td align="center" valign="middle"><strong>→</strong></td>
-<td align="center" valign="top">
-<strong>Final AI Image Composition</strong><br>
-<a href="https://pixexid.com/i/mara-brings-tavi-to-life-8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c"><img src="https://images.pixexid.com/mara-brings-tavi-to-life-8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c.jpg" alt="Mara Brings Tavi to Life" width="340"></a><br>
-<sub>Mara Brings Tavi to Life</sub>
-</td>
 </tr>
 </table>
+
+<p align="center"><strong>Ordered references → Final AI Image Composition</strong></p>
+
+<p align="center">
+<a href="https://pixexid.com/i/mara-brings-tavi-to-life-8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c"><img src="https://images.pixexid.com/mara-brings-tavi-to-life-8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c.jpg" alt="Mara Brings Tavi to Life" width="760"></a><br>
+<strong>Mara Brings Tavi to Life</strong>
+</p>
 
 [Exact prompt and provenance](cases/mara-brings-tavi-to-life-8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c.md) · [Canonical image](https://pixexid.com/i/mara-brings-tavi-to-life-8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c) · [Public recipe](https://pixexid.com/ai-composition/6efb2dae-6c8c-4cfc-b4c6-4f21efd6d3ae)
 
@@ -72,14 +73,15 @@ A candid greenhouse portrait tests whether Dev’s expressive face preserves his
 <a href="https://pixexid.com/api/creative-assets/0f72c85b-1306-500e-a991-fb7cbf7e0576/public?imageId=03d91188-a399-5cff-a679-76036c37a3db"><img src="https://pixexid.com/api/creative-assets/0f72c85b-1306-500e-a991-fb7cbf7e0576/public?imageId=03d91188-a399-5cff-a679-76036c37a3db" alt="Dev Neutral Character Sheet" width="150"></a><br>
 <sub>Dev Neutral Character Sheet</sub>
 </td>
-<td align="center" valign="middle"><strong>→</strong></td>
-<td align="center" valign="top">
-<strong>Final AI Image Composition</strong><br>
-<a href="https://pixexid.com/i/dev-laughing-in-the-greenhouse-03d91188-a399-5cff-a679-76036c37a3db"><img src="https://images.pixexid.com/dev-laughing-in-the-greenhouse-03d91188-a399-5cff-a679-76036c37a3db.jpg" alt="Dev Laughing in the Greenhouse" width="340"></a><br>
-<sub>Dev Laughing in the Greenhouse</sub>
-</td>
 </tr>
 </table>
+
+<p align="center"><strong>Ordered references → Final AI Image Composition</strong></p>
+
+<p align="center">
+<a href="https://pixexid.com/i/dev-laughing-in-the-greenhouse-03d91188-a399-5cff-a679-76036c37a3db"><img src="https://images.pixexid.com/dev-laughing-in-the-greenhouse-03d91188-a399-5cff-a679-76036c37a3db.jpg" alt="Dev Laughing in the Greenhouse" width="760"></a><br>
+<strong>Dev Laughing in the Greenhouse</strong>
+</p>
 
 [Exact prompt and provenance](cases/dev-laughing-in-the-greenhouse-03d91188-a399-5cff-a679-76036c37a3db.md) · [Canonical image](https://pixexid.com/i/dev-laughing-in-the-greenhouse-03d91188-a399-5cff-a679-76036c37a3db) · [Public recipe](https://pixexid.com/ai-composition/c5fa9811-5b24-4bf1-b4a4-ef28506cd382)
 
@@ -99,14 +101,15 @@ A full-body walking scene tests Dev’s lean long-limbed proportions, hair, clea
 <a href="https://pixexid.com/api/creative-assets/0f72c85b-1306-500e-a991-fb7cbf7e0576/public?imageId=2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7"><img src="https://pixexid.com/api/creative-assets/0f72c85b-1306-500e-a991-fb7cbf7e0576/public?imageId=2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7" alt="Dev Neutral Character Sheet" width="150"></a><br>
 <sub>Dev Neutral Character Sheet</sub>
 </td>
-<td align="center" valign="middle"><strong>→</strong></td>
-<td align="center" valign="top">
-<strong>Final AI Image Composition</strong><br>
-<a href="https://pixexid.com/i/dev-on-the-rainwashed-boardwalk-2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7"><img src="https://images.pixexid.com/dev-on-the-rainwashed-boardwalk-2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7.jpg" alt="Dev on the Rainwashed Boardwalk" width="340"></a><br>
-<sub>Dev on the Rainwashed Boardwalk</sub>
-</td>
 </tr>
 </table>
+
+<p align="center"><strong>Ordered references → Final AI Image Composition</strong></p>
+
+<p align="center">
+<a href="https://pixexid.com/i/dev-on-the-rainwashed-boardwalk-2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7"><img src="https://images.pixexid.com/dev-on-the-rainwashed-boardwalk-2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7.jpg" alt="Dev on the Rainwashed Boardwalk" width="760"></a><br>
+<strong>Dev on the Rainwashed Boardwalk</strong>
+</p>
 
 [Exact prompt and provenance](cases/dev-on-the-rainwashed-boardwalk-2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7.md) · [Canonical image](https://pixexid.com/i/dev-on-the-rainwashed-boardwalk-2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7) · [Public recipe](https://pixexid.com/ai-composition/c5fa9811-5b24-4bf1-b4a4-ef28506cd382)
 
@@ -126,14 +129,15 @@ A wide studio scene tests Dev’s identity, lean proportions, hands, eyebrow sca
 <a href="https://pixexid.com/api/creative-assets/0f72c85b-1306-500e-a991-fb7cbf7e0576/public?imageId=ac4ae603-d1fa-547c-ae4c-db37eb39eb77"><img src="https://pixexid.com/api/creative-assets/0f72c85b-1306-500e-a991-fb7cbf7e0576/public?imageId=ac4ae603-d1fa-547c-ae4c-db37eb39eb77" alt="Dev Neutral Character Sheet" width="150"></a><br>
 <sub>Dev Neutral Character Sheet</sub>
 </td>
-<td align="center" valign="middle"><strong>→</strong></td>
-<td align="center" valign="top">
-<strong>Final AI Image Composition</strong><br>
-<a href="https://pixexid.com/i/dev-builds-a-folded-paper-form-ac4ae603-d1fa-547c-ae4c-db37eb39eb77"><img src="https://images.pixexid.com/dev-builds-a-folded-paper-form-ac4ae603-d1fa-547c-ae4c-db37eb39eb77.jpg" alt="Dev Builds a Folded Paper Form" width="340"></a><br>
-<sub>Dev Builds a Folded Paper Form</sub>
-</td>
 </tr>
 </table>
+
+<p align="center"><strong>Ordered references → Final AI Image Composition</strong></p>
+
+<p align="center">
+<a href="https://pixexid.com/i/dev-builds-a-folded-paper-form-ac4ae603-d1fa-547c-ae4c-db37eb39eb77"><img src="https://images.pixexid.com/dev-builds-a-folded-paper-form-ac4ae603-d1fa-547c-ae4c-db37eb39eb77.jpg" alt="Dev Builds a Folded Paper Form" width="760"></a><br>
+<strong>Dev Builds a Folded Paper Form</strong>
+</p>
 
 [Exact prompt and provenance](cases/dev-builds-a-folded-paper-form-ac4ae603-d1fa-547c-ae4c-db37eb39eb77.md) · [Canonical image](https://pixexid.com/i/dev-builds-a-folded-paper-form-ac4ae603-d1fa-547c-ae4c-db37eb39eb77) · [Public recipe](https://pixexid.com/ai-composition/c5fa9811-5b24-4bf1-b4a4-ef28506cd382)
 

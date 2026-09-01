@@ -18,14 +18,15 @@ A full-body walking scene tests Dev’s lean long-limbed proportions, hair, clea
 <a href="https://pixexid.com/api/creative-assets/0f72c85b-1306-500e-a991-fb7cbf7e0576/public?imageId=2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7"><img src="https://pixexid.com/api/creative-assets/0f72c85b-1306-500e-a991-fb7cbf7e0576/public?imageId=2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7" alt="Dev Neutral Character Sheet" width="150"></a><br>
 <sub>Dev Neutral Character Sheet</sub>
 </td>
-<td align="center" valign="middle"><strong>→</strong></td>
-<td align="center" valign="top">
-<strong>Final AI Image Composition</strong><br>
-<a href="https://pixexid.com/i/dev-on-the-rainwashed-boardwalk-2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7"><img src="https://images.pixexid.com/dev-on-the-rainwashed-boardwalk-2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7.jpg" alt="Dev on the Rainwashed Boardwalk" width="340"></a><br>
-<sub>Dev on the Rainwashed Boardwalk</sub>
-</td>
 </tr>
 </table>
+
+<p align="center"><strong>Ordered references → Final AI Image Composition</strong></p>
+
+<p align="center">
+<a href="https://pixexid.com/i/dev-on-the-rainwashed-boardwalk-2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7"><img src="https://images.pixexid.com/dev-on-the-rainwashed-boardwalk-2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7.jpg" alt="Dev on the Rainwashed Boardwalk" width="760"></a><br>
+<strong>Dev on the Rainwashed Boardwalk</strong>
+</p>
 
 Role labels and order come directly from the public Pixexid recipe.
 
