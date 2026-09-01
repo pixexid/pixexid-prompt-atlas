@@ -7,28 +7,56 @@ import { fileURLToPath } from "node:url";
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const sources = JSON.parse(await readFile(join(root, "data/sources.json"), "utf8"));
 const uuid = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+const projectCache = new Map();
 
 const fail = (message) => {
   throw new Error(message);
 };
-
 const markdownEscape = (value) => String(value).replaceAll("|", "\\|");
+const roleLabel = (value) => `${value[0].toUpperCase()}${value.slice(1)}`;
+const htmlEscape = (value) =>
+  String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;");
+
+async function fetchProject(url) {
+  if (!projectCache.has(url))
+    projectCache.set(
+      url,
+      fetch(url).then(async (response) => {
+        if (!response.ok) fail(`Public composition unavailable: ${url}`);
+        const html = await response.text();
+        const match = html.match(
+          /<script id="__NEXT_DATA__" type="application\/json">([\s\S]*?)<\/script>/,
+        );
+        if (!match) fail(`Public composition data missing: ${url}`);
+        return JSON.parse(match[1]).props?.pageProps?.project;
+      }),
+    );
+  return projectCache.get(url);
+}
 
 async function fetchCase(source) {
   const canonical = new URL(source.canonical_url);
   const composition = new URL(source.composition_url);
   if (canonical.protocol !== "https:" || canonical.hostname !== "pixexid.com")
     fail(`Refusing non-Pixexid source: ${canonical}`);
-  if (!canonical.pathname.startsWith("/i/") || composition.hostname !== "pixexid.com")
+  if (
+    !canonical.pathname.startsWith("/i/") ||
+    composition.hostname !== "pixexid.com" ||
+    !composition.pathname.startsWith("/ai-composition/")
+  )
     fail(`Invalid canonical or composition URL: ${canonical}`);
 
   const slug = basename(canonical.pathname);
-  const [apiResponse, pageResponse, compositionResponse] = await Promise.all([
+  const [apiResponse, pageResponse, project] = await Promise.all([
     fetch(`https://pixexid.com/api/picture/by-filename/${encodeURIComponent(slug)}`),
     fetch(canonical),
-    fetch(composition),
+    fetchProject(source.composition_url),
   ]);
-  if (!apiResponse.ok || !pageResponse.ok || !compositionResponse.ok)
+  if (!apiResponse.ok || !pageResponse.ok || !project)
     fail(`Public source unavailable for ${slug}`);
 
   const [record, html] = await Promise.all([apiResponse.json(), pageResponse.text()]);
@@ -40,6 +68,37 @@ async function fetchCase(source) {
     fail(`Incomplete or unapproved public record for ${slug}`);
   if (record.gen_meta?.provenance?.moderation !== "approved")
     fail(`Public provenance is not approved for ${slug}`);
+
+  const scene = project.scenes?.find((item) => item.output?.publicImageId === record.id);
+  const step = scene?.steps?.at(-1);
+  if (
+    !step ||
+    step.output?.prompt !== record.prompt ||
+    step.inputs?.length !== record.gen_meta.creative.inputCount ||
+    step.inputs.some((input) => !input.asset)
+  )
+    fail(`Incomplete public recipe for ${slug}`);
+
+  const references = await Promise.all(
+    step.inputs.map(async ({ role, asset }, index) => {
+      const imageUrl = new URL(asset.mediaUrl, composition).href;
+      const response = await fetch(imageUrl);
+      if (!response.ok || !response.headers.get("content-type")?.startsWith("image/"))
+        fail(`Public reference ${index + 1} unavailable for ${slug}`);
+      return {
+        order: index + 1,
+        role,
+        id: asset.id,
+        title: asset.title,
+        description: asset.description,
+        prompt: asset.prompt,
+        model: asset.model,
+        kind: asset.kind,
+        dimensions: { width: asset.width, height: asset.height },
+        image_url: imageUrl,
+      };
+    }),
+  );
 
   return {
     id: record.id,
@@ -56,6 +115,7 @@ async function fetchCase(source) {
     canonical_url: canonicalMatch[1],
     image_url: imageMatch[1],
     composition_url: source.composition_url,
+    references,
     recipe: record.gen_meta.creative,
     provenance: record.gen_meta.provenance,
     output: record.gen_meta.output,
@@ -63,24 +123,54 @@ async function fetchCase(source) {
     rights: {
       attribution: "Pixexid",
       basis: source.rights_basis,
-      linked_image_license: "Excluded from this repository's CC BY 4.0 catalog license; see Pixexid Terms.",
+      linked_image_license:
+        "Excluded from this repository's CC BY 4.0 catalog license; see Pixexid Terms.",
     },
     source_api: `https://pixexid.com/api/picture/by-filename/${encodeURIComponent(slug)}`,
   };
 }
 
-function caseMarkdown(item) {
-  return `# ${item.title}
+function recipeVisual(item) {
+  const inputs = item.references
+    .map(
+      (reference) => `<td align="center" valign="top">
+<strong>${reference.order}. ${htmlEscape(roleLabel(reference.role))}</strong><br>
+<a href="${reference.image_url}"><img src="${reference.image_url}" alt="${htmlEscape(reference.title)}" width="150"></a><br>
+<sub>${htmlEscape(reference.title)}</sub>
+</td>`,
+    )
+    .join("\n");
+  return `<table>
+<tr>
+${inputs}
+<td align="center" valign="middle"><strong>→</strong></td>
+<td align="center" valign="top">
+<strong>Final AI Image Composition</strong><br>
+<a href="${item.canonical_url}"><img src="${item.image_url}" alt="${htmlEscape(item.title)}" width="340"></a><br>
+<sub>${htmlEscape(item.title)}</sub>
+</td>
+</tr>
+</table>`;
+}
 
-[![${item.title}](${item.image_url})](${item.canonical_url})
+function caseMarkdown(item) {
+  return `# ${item.title} — Multi-Reference AI Composition
+
+**AI Image Composition recipe:** ${item.references.length} ordered visual references → one final artwork.
 
 ${item.description}
+
+## Ordered references → final result
+
+${recipeVisual(item)}
+
+Role labels and order come directly from the public Pixexid recipe.
 
 | Field | Value |
 | --- | --- |
 | Model | ${markdownEscape(item.model)} |
 | Format | ${item.dimensions.width} × ${item.dimensions.height} ${markdownEscape(item.output.format)} |
-| Recipe | ${item.recipe.inputCount} public inputs · ${markdownEscape(item.recipe.kind)} |
+| Recipe | ${item.references.length} public inputs · ${markdownEscape(item.recipe.kind)} |
 | Tags | ${item.tags.map((tag) => `\`${tag}\``).join(" ")} |
 | Canonical | [Pixexid image page](${item.canonical_url}) |
 | Composition | [Public AI Composition recipe](${item.composition_url}) |
@@ -101,7 +191,66 @@ ${item.prompt}
 | Source SHA-256 | \`${item.provenance.source_sha256}\` |
 | Import manifest SHA-256 | \`${item.provenance.import_manifest_sha256}\` |
 
-Catalog text and data are licensed under [CC BY 4.0](../LICENSE). The linked image is not relicensed here. ${item.rights.basis}
+Catalog text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed here. ${item.rights.basis}
+`;
+}
+
+function readmeMarkdown(cases) {
+  const gallery = cases
+    .map(
+      (item, index) => `## ${String(index + 1).padStart(2, "0")} — [${item.title}](cases/${item.slug}.md)
+
+${item.description}
+
+${recipeVisual(item)}
+
+[Exact prompt and provenance](cases/${item.slug}.md) · [Canonical image](${item.canonical_url}) · [Public recipe](${item.composition_url})`,
+    )
+    .join("\n\n");
+  return `<h1 align="center">Multi-Reference AI Composition — Pixexid Prompt Atlas</h1>
+
+<p align="center"><strong>AI Image Compositions built from ordered visual references, exact prompts, and public recipes.</strong></p>
+
+<p align="center">
+  See how <a href="https://pixexid.com">Pixexid</a> turns identity, character, product, logo, style, and other visual references into reproducible final artwork.
+</p>
+
+<p align="center">
+  <a href="data/cases.json"><img alt="JSON data" src="https://img.shields.io/badge/data-JSON-24443B"></a>
+  <a href="LICENSE"><img alt="CC BY 4.0" src="https://img.shields.io/badge/catalog-CC_BY_4.0-D9775F"></a>
+  <a href="LICENSE-CODE"><img alt="MIT licensed code" src="https://img.shields.io/badge/code-MIT-D7A236"></a>
+</p>
+
+This is a curated, machine-readable atlas of **Multi-Reference AI Composition** recipes. Every case below shows all ordered public reference inputs once, followed by the final result—so the method is visible without leaving GitHub.
+
+${gallery}
+
+## Use the structured data
+
+Each case includes its ordered references, exact public prompt, model, dimensions, tags, palette, recipe metadata, and SHA-256 provenance in [\`data/cases.json\`](data/cases.json). The schema is [\`schema/cases.schema.json\`](schema/cases.schema.json).
+
+\`\`\`sh
+node -e 'const a=require("./data/cases.json"); console.log(a.cases.map(({title,references,prompt})=>({title,references:references.map(r=>r.role),prompt})))'
+\`\`\`
+
+## Refresh from Pixexid
+
+The export is allowlisted: adding a case requires an explicit public Pixexid URL and a reviewed rights basis in [\`data/sources.json\`](data/sources.json).
+
+\`\`\`sh
+node scripts/export.mjs
+node scripts/validate.mjs --links
+\`\`\`
+
+The dependency-free exporter reads only anonymous public Pixexid pages and APIs. It fails closed on unavailable pages, non-Pixexid hosts, unapproved moderation, missing reference previews, private recipes, mismatched input order, or incomplete provenance. It never connects to Pixexid's database or production credentials.
+
+## Rights and safety
+
+This atlas contains only Pixexid-admin-owned, original AI Image Compositions with public source sharing enabled. It excludes private user records, private masters, third-party source files, real-person identity material, secrets, and work with unclear rights.
+
+Catalog text and structured data are [CC BY 4.0](LICENSE); scripts are [MIT](LICENSE-CODE). Linked images remain hosted by Pixexid and are not relicensed by this repository. See the [rights scope](RIGHTS.md) and [contribution policy](CONTRIBUTING.md).
+
+Create and explore more [AI Image Compositions on Pixexid](https://pixexid.com).
 `;
 }
 
@@ -115,5 +264,6 @@ await writeFile(
 );
 for (const item of cases)
   await writeFile(join(root, "cases", `${item.slug}.md`), caseMarkdown(item));
+await writeFile(join(root, "README.md"), readmeMarkdown(cases));
 
-console.log(`Exported ${cases.length} public Pixexid cases.`);
+console.log(`Exported ${cases.length} public Pixexid AI Image Compositions.`);

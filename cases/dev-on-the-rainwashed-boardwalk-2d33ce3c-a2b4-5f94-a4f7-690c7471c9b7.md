@@ -1,8 +1,33 @@
-# Dev on the Rainwashed Boardwalk
+# Dev on the Rainwashed Boardwalk — Multi-Reference AI Composition
 
-[![Dev on the Rainwashed Boardwalk](https://images.pixexid.com/dev-on-the-rainwashed-boardwalk-2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7.jpg)](https://pixexid.com/i/dev-on-the-rainwashed-boardwalk-2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7)
+**AI Image Composition recipe:** 2 ordered visual references → one final artwork.
 
 A full-body walking scene tests Dev’s lean long-limbed proportions, hair, clean-shaven identity, and motion under a wardrobe change.
+
+## Ordered references → final result
+
+<table>
+<tr>
+<td align="center" valign="top">
+<strong>1. Identity</strong><br>
+<a href="https://pixexid.com/api/creative-assets/4f2152ff-e18d-5cdf-af80-69f4e1e53aed/public?imageId=2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7"><img src="https://pixexid.com/api/creative-assets/4f2152ff-e18d-5cdf-af80-69f4e1e53aed/public?imageId=2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7" alt="Dev Neutral Identity Anchor" width="150"></a><br>
+<sub>Dev Neutral Identity Anchor</sub>
+</td>
+<td align="center" valign="top">
+<strong>2. Reference</strong><br>
+<a href="https://pixexid.com/api/creative-assets/0f72c85b-1306-500e-a991-fb7cbf7e0576/public?imageId=2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7"><img src="https://pixexid.com/api/creative-assets/0f72c85b-1306-500e-a991-fb7cbf7e0576/public?imageId=2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7" alt="Dev Neutral Character Sheet" width="150"></a><br>
+<sub>Dev Neutral Character Sheet</sub>
+</td>
+<td align="center" valign="middle"><strong>→</strong></td>
+<td align="center" valign="top">
+<strong>Final AI Image Composition</strong><br>
+<a href="https://pixexid.com/i/dev-on-the-rainwashed-boardwalk-2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7"><img src="https://images.pixexid.com/dev-on-the-rainwashed-boardwalk-2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7.jpg" alt="Dev on the Rainwashed Boardwalk" width="340"></a><br>
+<sub>Dev on the Rainwashed Boardwalk</sub>
+</td>
+</tr>
+</table>
+
+Role labels and order come directly from the public Pixexid recipe.
 
 | Field | Value |
 | --- | --- |
@@ -34,4 +59,4 @@ Constraints: one Dev only; full body and both shoes visible; physically plausibl
 | Source SHA-256 | `5967be31cbf658f337bd22af60acaaa93004a7b2730947ef6c425bcf490c610d` |
 | Import manifest SHA-256 | `64df439223e2f2d0f37d89ff537f53f361a3f0ff516076b7552934694cd49068` |
 
-Catalog text and data are licensed under [CC BY 4.0](../LICENSE). The linked image is not relicensed here. Pixexid-admin-owned original AI-generated composition using a fictional character.
+Catalog text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed here. Pixexid-admin-owned original AI-generated composition using a fictional character.

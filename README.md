@@ -1,15 +1,9 @@
-<p align="center">
-  <a href="https://pixexid.com/i/mara-brings-tavi-to-life-8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c">
-    <img src="https://images.pixexid.com/mara-brings-tavi-to-life-8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c.jpg" alt="Mara brings Tavi to life in a folded-paper pavilion" width="900">
-  </a>
-</p>
+<h1 align="center">Multi-Reference AI Composition — Pixexid Prompt Atlas</h1>
 
-<h1 align="center">Pixexid Prompt Atlas</h1>
-
-<p align="center"><strong>Exact prompts, real outputs, public recipes.</strong></p>
+<p align="center"><strong>AI Image Compositions built from ordered visual references, exact prompts, and public recipes.</strong></p>
 
 <p align="center">
-  A curated, machine-readable window into how <a href="https://pixexid.com">Pixexid</a> builds reproducible AI compositions.
+  See how <a href="https://pixexid.com">Pixexid</a> turns identity, character, product, logo, style, and other visual references into reproducible final artwork.
 </p>
 
 <p align="center">
@@ -18,26 +12,138 @@
   <a href="LICENSE-CODE"><img alt="MIT licensed code" src="https://img.shields.io/badge/code-MIT-D7A236"></a>
 </p>
 
-## Start here
+This is a curated, machine-readable atlas of **Multi-Reference AI Composition** recipes. Every case below shows all ordered public reference inputs once, followed by the final result—so the method is visible without leaving GitHub.
 
-Each case includes the exact public prompt, model, dimensions, tags, palette, recipe metadata, and SHA-256 provenance already exposed by Pixexid. Use the readable case page, consume [`data/cases.json`](data/cases.json), or open the complete public recipe on Pixexid.
+## 01 — [Mara Brings Tavi to Life](cases/mara-brings-tavi-to-life-8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c.md)
 
-| Case | What it demonstrates | Recipe |
-| --- | --- | --- |
-| [Mara Brings Tavi to Life](cases/mara-brings-tavi-to-life-8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c.md) | Five-reference character, persona, product, logo, and style composition | [Open](https://pixexid.com/ai-composition/6efb2dae-6c8c-4cfc-b4c6-4f21efd6d3ae) |
-| [Dev Laughing in the Greenhouse](cases/dev-laughing-in-the-greenhouse-03d91188-a399-5cff-a679-76036c37a3db.md) | Identity under expression and wardrobe change | [Open](https://pixexid.com/ai-composition/c5fa9811-5b24-4bf1-b4a4-ef28506cd382) |
-| [Dev on the Rainwashed Boardwalk](cases/dev-on-the-rainwashed-boardwalk-2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7.md) | Full-body motion and environmental consistency | [Open](https://pixexid.com/ai-composition/c5fa9811-5b24-4bf1-b4a4-ef28506cd382) |
-| [Dev Builds a Folded Paper Form](cases/dev-builds-a-folded-paper-form-ac4ae603-d1fa-547c-ae4c-db37eb39eb77.md) | Hands, object interaction, and wide composition | [Open](https://pixexid.com/ai-composition/c5fa9811-5b24-4bf1-b4a4-ef28506cd382) |
+Compose a playful brand campaign that turns a character reference into a life-size paper sculpture while preserving a persona, product, and logo.
 
-## Use it
+<table>
+<tr>
+<td align="center" valign="top">
+<strong>1. Identity</strong><br>
+<a href="https://pixexid.com/api/creative-assets/d431ce5f-aada-56e9-a3c0-e9fe41c73185/public?imageId=8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c"><img src="https://pixexid.com/api/creative-assets/d431ce5f-aada-56e9-a3c0-e9fe41c73185/public?imageId=8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c" alt="Mara in a Neutral Studio Portrait" width="150"></a><br>
+<sub>Mara in a Neutral Studio Portrait</sub>
+</td>
+<td align="center" valign="top">
+<strong>2. Reference</strong><br>
+<a href="https://pixexid.com/api/creative-assets/5ae202d7-42c8-58e9-a753-dfdd6757a602/public?imageId=8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c"><img src="https://pixexid.com/api/creative-assets/5ae202d7-42c8-58e9-a753-dfdd6757a602/public?imageId=8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c" alt="Tavi the Teal Otter Character Reference" width="150"></a><br>
+<sub>Tavi the Teal Otter Character Reference</sub>
+</td>
+<td align="center" valign="top">
+<strong>3. Product</strong><br>
+<a href="https://pixexid.com/api/creative-assets/d6d79bd7-150f-578d-a749-61503be2d35a/public?imageId=8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c"><img src="https://pixexid.com/api/creative-assets/d6d79bd7-150f-578d-a749-61503be2d35a/public?imageId=8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c" alt="The coral bottle" width="150"></a><br>
+<sub>The coral bottle</sub>
+</td>
+<td align="center" valign="top">
+<strong>4. Logo</strong><br>
+<a href="https://pixexid.com/api/creative-assets/75cdd541-a55d-5c88-ac77-cddfefd7aaf9/public?imageId=8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c"><img src="https://pixexid.com/api/creative-assets/75cdd541-a55d-5c88-ac77-cddfefd7aaf9/public?imageId=8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c" alt="FOLD &amp; FIELD · corrected mark" width="150"></a><br>
+<sub>FOLD &amp; FIELD · corrected mark</sub>
+</td>
+<td align="center" valign="top">
+<strong>5. Style</strong><br>
+<a href="https://pixexid.com/api/creative-assets/d6b5f85f-fbcd-54fc-a157-f095883d6fad/public?imageId=8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c"><img src="https://pixexid.com/api/creative-assets/d6b5f85f-fbcd-54fc-a157-f095883d6fad/public?imageId=8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c" alt="A landscape, folded." width="150"></a><br>
+<sub>A landscape, folded.</sub>
+</td>
+<td align="center" valign="middle"><strong>→</strong></td>
+<td align="center" valign="top">
+<strong>Final AI Image Composition</strong><br>
+<a href="https://pixexid.com/i/mara-brings-tavi-to-life-8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c"><img src="https://images.pixexid.com/mara-brings-tavi-to-life-8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c.jpg" alt="Mara Brings Tavi to Life" width="340"></a><br>
+<sub>Mara Brings Tavi to Life</sub>
+</td>
+</tr>
+</table>
 
-No install is required.
+[Exact prompt and provenance](cases/mara-brings-tavi-to-life-8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c.md) · [Canonical image](https://pixexid.com/i/mara-brings-tavi-to-life-8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c) · [Public recipe](https://pixexid.com/ai-composition/6efb2dae-6c8c-4cfc-b4c6-4f21efd6d3ae)
+
+## 02 — [Dev Laughing in the Greenhouse](cases/dev-laughing-in-the-greenhouse-03d91188-a399-5cff-a679-76036c37a3db.md)
+
+A candid greenhouse portrait tests whether Dev’s expressive face preserves his angular structure, eyebrow scar, skin texture, and wavy hair.
+
+<table>
+<tr>
+<td align="center" valign="top">
+<strong>1. Identity</strong><br>
+<a href="https://pixexid.com/api/creative-assets/4f2152ff-e18d-5cdf-af80-69f4e1e53aed/public?imageId=03d91188-a399-5cff-a679-76036c37a3db"><img src="https://pixexid.com/api/creative-assets/4f2152ff-e18d-5cdf-af80-69f4e1e53aed/public?imageId=03d91188-a399-5cff-a679-76036c37a3db" alt="Dev Neutral Identity Anchor" width="150"></a><br>
+<sub>Dev Neutral Identity Anchor</sub>
+</td>
+<td align="center" valign="top">
+<strong>2. Reference</strong><br>
+<a href="https://pixexid.com/api/creative-assets/0f72c85b-1306-500e-a991-fb7cbf7e0576/public?imageId=03d91188-a399-5cff-a679-76036c37a3db"><img src="https://pixexid.com/api/creative-assets/0f72c85b-1306-500e-a991-fb7cbf7e0576/public?imageId=03d91188-a399-5cff-a679-76036c37a3db" alt="Dev Neutral Character Sheet" width="150"></a><br>
+<sub>Dev Neutral Character Sheet</sub>
+</td>
+<td align="center" valign="middle"><strong>→</strong></td>
+<td align="center" valign="top">
+<strong>Final AI Image Composition</strong><br>
+<a href="https://pixexid.com/i/dev-laughing-in-the-greenhouse-03d91188-a399-5cff-a679-76036c37a3db"><img src="https://images.pixexid.com/dev-laughing-in-the-greenhouse-03d91188-a399-5cff-a679-76036c37a3db.jpg" alt="Dev Laughing in the Greenhouse" width="340"></a><br>
+<sub>Dev Laughing in the Greenhouse</sub>
+</td>
+</tr>
+</table>
+
+[Exact prompt and provenance](cases/dev-laughing-in-the-greenhouse-03d91188-a399-5cff-a679-76036c37a3db.md) · [Canonical image](https://pixexid.com/i/dev-laughing-in-the-greenhouse-03d91188-a399-5cff-a679-76036c37a3db) · [Public recipe](https://pixexid.com/ai-composition/c5fa9811-5b24-4bf1-b4a4-ef28506cd382)
+
+## 03 — [Dev on the Rainwashed Boardwalk](cases/dev-on-the-rainwashed-boardwalk-2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7.md)
+
+A full-body walking scene tests Dev’s lean long-limbed proportions, hair, clean-shaven identity, and motion under a wardrobe change.
+
+<table>
+<tr>
+<td align="center" valign="top">
+<strong>1. Identity</strong><br>
+<a href="https://pixexid.com/api/creative-assets/4f2152ff-e18d-5cdf-af80-69f4e1e53aed/public?imageId=2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7"><img src="https://pixexid.com/api/creative-assets/4f2152ff-e18d-5cdf-af80-69f4e1e53aed/public?imageId=2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7" alt="Dev Neutral Identity Anchor" width="150"></a><br>
+<sub>Dev Neutral Identity Anchor</sub>
+</td>
+<td align="center" valign="top">
+<strong>2. Reference</strong><br>
+<a href="https://pixexid.com/api/creative-assets/0f72c85b-1306-500e-a991-fb7cbf7e0576/public?imageId=2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7"><img src="https://pixexid.com/api/creative-assets/0f72c85b-1306-500e-a991-fb7cbf7e0576/public?imageId=2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7" alt="Dev Neutral Character Sheet" width="150"></a><br>
+<sub>Dev Neutral Character Sheet</sub>
+</td>
+<td align="center" valign="middle"><strong>→</strong></td>
+<td align="center" valign="top">
+<strong>Final AI Image Composition</strong><br>
+<a href="https://pixexid.com/i/dev-on-the-rainwashed-boardwalk-2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7"><img src="https://images.pixexid.com/dev-on-the-rainwashed-boardwalk-2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7.jpg" alt="Dev on the Rainwashed Boardwalk" width="340"></a><br>
+<sub>Dev on the Rainwashed Boardwalk</sub>
+</td>
+</tr>
+</table>
+
+[Exact prompt and provenance](cases/dev-on-the-rainwashed-boardwalk-2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7.md) · [Canonical image](https://pixexid.com/i/dev-on-the-rainwashed-boardwalk-2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7) · [Public recipe](https://pixexid.com/ai-composition/c5fa9811-5b24-4bf1-b4a4-ef28506cd382)
+
+## 04 — [Dev Builds a Folded Paper Form](cases/dev-builds-a-folded-paper-form-ac4ae603-d1fa-547c-ae4c-db37eb39eb77.md)
+
+A wide studio scene tests Dev’s identity, lean proportions, hands, eyebrow scar, and physical interaction with a three-panel sculpture.
+
+<table>
+<tr>
+<td align="center" valign="top">
+<strong>1. Identity</strong><br>
+<a href="https://pixexid.com/api/creative-assets/4f2152ff-e18d-5cdf-af80-69f4e1e53aed/public?imageId=ac4ae603-d1fa-547c-ae4c-db37eb39eb77"><img src="https://pixexid.com/api/creative-assets/4f2152ff-e18d-5cdf-af80-69f4e1e53aed/public?imageId=ac4ae603-d1fa-547c-ae4c-db37eb39eb77" alt="Dev Neutral Identity Anchor" width="150"></a><br>
+<sub>Dev Neutral Identity Anchor</sub>
+</td>
+<td align="center" valign="top">
+<strong>2. Reference</strong><br>
+<a href="https://pixexid.com/api/creative-assets/0f72c85b-1306-500e-a991-fb7cbf7e0576/public?imageId=ac4ae603-d1fa-547c-ae4c-db37eb39eb77"><img src="https://pixexid.com/api/creative-assets/0f72c85b-1306-500e-a991-fb7cbf7e0576/public?imageId=ac4ae603-d1fa-547c-ae4c-db37eb39eb77" alt="Dev Neutral Character Sheet" width="150"></a><br>
+<sub>Dev Neutral Character Sheet</sub>
+</td>
+<td align="center" valign="middle"><strong>→</strong></td>
+<td align="center" valign="top">
+<strong>Final AI Image Composition</strong><br>
+<a href="https://pixexid.com/i/dev-builds-a-folded-paper-form-ac4ae603-d1fa-547c-ae4c-db37eb39eb77"><img src="https://images.pixexid.com/dev-builds-a-folded-paper-form-ac4ae603-d1fa-547c-ae4c-db37eb39eb77.jpg" alt="Dev Builds a Folded Paper Form" width="340"></a><br>
+<sub>Dev Builds a Folded Paper Form</sub>
+</td>
+</tr>
+</table>
+
+[Exact prompt and provenance](cases/dev-builds-a-folded-paper-form-ac4ae603-d1fa-547c-ae4c-db37eb39eb77.md) · [Canonical image](https://pixexid.com/i/dev-builds-a-folded-paper-form-ac4ae603-d1fa-547c-ae4c-db37eb39eb77) · [Public recipe](https://pixexid.com/ai-composition/c5fa9811-5b24-4bf1-b4a4-ef28506cd382)
+
+## Use the structured data
+
+Each case includes its ordered references, exact public prompt, model, dimensions, tags, palette, recipe metadata, and SHA-256 provenance in [`data/cases.json`](data/cases.json). The schema is [`schema/cases.schema.json`](schema/cases.schema.json).
 
 ```sh
-node -e 'const a=require("./data/cases.json"); console.log(a.cases.map(({title,prompt})=>({title,prompt})))'
+node -e 'const a=require("./data/cases.json"); console.log(a.cases.map(({title,references,prompt})=>({title,references:references.map(r=>r.role),prompt})))'
 ```
-
-Agents can read the same stable JSON and follow `canonical_url` for the authoritative public work or `composition_url` for its recipe. The schema is [`schema/cases.schema.json`](schema/cases.schema.json).
 
 ## Refresh from Pixexid
 
@@ -48,12 +154,12 @@ node scripts/export.mjs
 node scripts/validate.mjs --links
 ```
 
-The exporter reads only anonymous public Pixexid pages and APIs. It fails closed on unavailable pages, non-Pixexid hosts, unapproved moderation, private recipes, or incomplete provenance. It never connects to Pixexid's database or production credentials.
+The dependency-free exporter reads only anonymous public Pixexid pages and APIs. It fails closed on unavailable pages, non-Pixexid hosts, unapproved moderation, missing reference previews, private recipes, mismatched input order, or incomplete provenance. It never connects to Pixexid's database or production credentials.
 
 ## Rights and safety
 
-This v1 contains only Pixexid-admin-owned, original AI-generated compositions with public source sharing enabled. It deliberately excludes private user records, source reference files, real-person identity material, secrets, and work with unclear rights.
+This atlas contains only Pixexid-admin-owned, original AI Image Compositions with public source sharing enabled. It excludes private user records, private masters, third-party source files, real-person identity material, secrets, and work with unclear rights.
 
-Catalog text and structured data are [CC BY 4.0](LICENSE); scripts are [MIT](LICENSE-CODE). Linked images remain hosted by Pixexid and are not relicensed by this repository. See the [rights scope](RIGHTS.md) and [contribution policy](CONTRIBUTING.md) before proposing a case.
+Catalog text and structured data are [CC BY 4.0](LICENSE); scripts are [MIT](LICENSE-CODE). Linked images remain hosted by Pixexid and are not relicensed by this repository. See the [rights scope](RIGHTS.md) and [contribution policy](CONTRIBUTING.md).
 
-Explore more at [pixexid.com](https://pixexid.com).
+Create and explore more [AI Image Compositions on Pixexid](https://pixexid.com).

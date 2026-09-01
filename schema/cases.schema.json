@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/pixexid/pixexid-prompt-atlas/schema/cases.schema.json",
-  "title": "Pixexid Prompt Atlas",
+  "title": "Pixexid Multi-Reference AI Composition Atlas",
   "type": "object",
   "required": ["schema_version", "cases"],
   "properties": {
@@ -14,7 +14,7 @@
         "required": [
           "id", "slug", "title", "description", "prompt", "model",
           "model_metadata", "tags", "colors", "dimensions", "created_at",
-          "canonical_url", "image_url", "composition_url", "recipe",
+          "canonical_url", "image_url", "composition_url", "references", "recipe",
           "provenance", "output", "post_processing", "rights", "source_api"
         ],
         "properties": {
@@ -27,6 +27,21 @@
           "canonical_url": { "type": "string", "format": "uri" },
           "image_url": { "type": "string", "format": "uri" },
           "composition_url": { "type": "string", "format": "uri" },
+          "references": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["order", "role", "id", "title", "description", "prompt", "model", "kind", "dimensions", "image_url"],
+              "properties": {
+                "order": { "type": "integer", "minimum": 1 },
+                "role": { "type": "string", "minLength": 1 },
+                "id": { "type": "string", "format": "uuid" },
+                "title": { "type": "string", "minLength": 1 },
+                "image_url": { "type": "string", "format": "uri" }
+              }
+            }
+          },
           "source_api": { "type": "string", "format": "uri" }
         }
       }

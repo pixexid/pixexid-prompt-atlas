@@ -1,8 +1,33 @@
-# Dev Builds a Folded Paper Form
+# Dev Builds a Folded Paper Form — Multi-Reference AI Composition
 
-[![Dev Builds a Folded Paper Form](https://images.pixexid.com/dev-builds-a-folded-paper-form-ac4ae603-d1fa-547c-ae4c-db37eb39eb77.jpg)](https://pixexid.com/i/dev-builds-a-folded-paper-form-ac4ae603-d1fa-547c-ae4c-db37eb39eb77)
+**AI Image Composition recipe:** 2 ordered visual references → one final artwork.
 
 A wide studio scene tests Dev’s identity, lean proportions, hands, eyebrow scar, and physical interaction with a three-panel sculpture.
+
+## Ordered references → final result
+
+<table>
+<tr>
+<td align="center" valign="top">
+<strong>1. Identity</strong><br>
+<a href="https://pixexid.com/api/creative-assets/4f2152ff-e18d-5cdf-af80-69f4e1e53aed/public?imageId=ac4ae603-d1fa-547c-ae4c-db37eb39eb77"><img src="https://pixexid.com/api/creative-assets/4f2152ff-e18d-5cdf-af80-69f4e1e53aed/public?imageId=ac4ae603-d1fa-547c-ae4c-db37eb39eb77" alt="Dev Neutral Identity Anchor" width="150"></a><br>
+<sub>Dev Neutral Identity Anchor</sub>
+</td>
+<td align="center" valign="top">
+<strong>2. Reference</strong><br>
+<a href="https://pixexid.com/api/creative-assets/0f72c85b-1306-500e-a991-fb7cbf7e0576/public?imageId=ac4ae603-d1fa-547c-ae4c-db37eb39eb77"><img src="https://pixexid.com/api/creative-assets/0f72c85b-1306-500e-a991-fb7cbf7e0576/public?imageId=ac4ae603-d1fa-547c-ae4c-db37eb39eb77" alt="Dev Neutral Character Sheet" width="150"></a><br>
+<sub>Dev Neutral Character Sheet</sub>
+</td>
+<td align="center" valign="middle"><strong>→</strong></td>
+<td align="center" valign="top">
+<strong>Final AI Image Composition</strong><br>
+<a href="https://pixexid.com/i/dev-builds-a-folded-paper-form-ac4ae603-d1fa-547c-ae4c-db37eb39eb77"><img src="https://images.pixexid.com/dev-builds-a-folded-paper-form-ac4ae603-d1fa-547c-ae4c-db37eb39eb77.jpg" alt="Dev Builds a Folded Paper Form" width="340"></a><br>
+<sub>Dev Builds a Folded Paper Form</sub>
+</td>
+</tr>
+</table>
+
+Role labels and order come directly from the public Pixexid recipe.
 
 | Field | Value |
 | --- | --- |
@@ -34,4 +59,4 @@ Constraints: one Dev, exactly three sculpture panels, one brass connector intera
 | Source SHA-256 | `c4f3288ec2ef796fb3cfd4c43b7400b0a61c26d6ac94522cd008a902c2db98e5` |
 | Import manifest SHA-256 | `c320107cf1dc8fe02338f2056bb456fdaa3dac69c774c596cee18d6e0cfe4f2a` |
 
-Catalog text and data are licensed under [CC BY 4.0](../LICENSE). The linked image is not relicensed here. Pixexid-admin-owned original AI-generated composition using a fictional character.
+Catalog text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed here. Pixexid-admin-owned original AI-generated composition using a fictional character.

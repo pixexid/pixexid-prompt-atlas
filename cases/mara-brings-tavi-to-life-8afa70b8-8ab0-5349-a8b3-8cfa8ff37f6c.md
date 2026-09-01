@@ -1,8 +1,48 @@
-# Mara Brings Tavi to Life
+# Mara Brings Tavi to Life — Multi-Reference AI Composition
 
-[![Mara Brings Tavi to Life](https://images.pixexid.com/mara-brings-tavi-to-life-8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c.jpg)](https://pixexid.com/i/mara-brings-tavi-to-life-8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c)
+**AI Image Composition recipe:** 5 ordered visual references → one final artwork.
 
 Compose a playful brand campaign that turns a character reference into a life-size paper sculpture while preserving a persona, product, and logo.
+
+## Ordered references → final result
+
+<table>
+<tr>
+<td align="center" valign="top">
+<strong>1. Identity</strong><br>
+<a href="https://pixexid.com/api/creative-assets/d431ce5f-aada-56e9-a3c0-e9fe41c73185/public?imageId=8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c"><img src="https://pixexid.com/api/creative-assets/d431ce5f-aada-56e9-a3c0-e9fe41c73185/public?imageId=8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c" alt="Mara in a Neutral Studio Portrait" width="150"></a><br>
+<sub>Mara in a Neutral Studio Portrait</sub>
+</td>
+<td align="center" valign="top">
+<strong>2. Reference</strong><br>
+<a href="https://pixexid.com/api/creative-assets/5ae202d7-42c8-58e9-a753-dfdd6757a602/public?imageId=8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c"><img src="https://pixexid.com/api/creative-assets/5ae202d7-42c8-58e9-a753-dfdd6757a602/public?imageId=8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c" alt="Tavi the Teal Otter Character Reference" width="150"></a><br>
+<sub>Tavi the Teal Otter Character Reference</sub>
+</td>
+<td align="center" valign="top">
+<strong>3. Product</strong><br>
+<a href="https://pixexid.com/api/creative-assets/d6d79bd7-150f-578d-a749-61503be2d35a/public?imageId=8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c"><img src="https://pixexid.com/api/creative-assets/d6d79bd7-150f-578d-a749-61503be2d35a/public?imageId=8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c" alt="The coral bottle" width="150"></a><br>
+<sub>The coral bottle</sub>
+</td>
+<td align="center" valign="top">
+<strong>4. Logo</strong><br>
+<a href="https://pixexid.com/api/creative-assets/75cdd541-a55d-5c88-ac77-cddfefd7aaf9/public?imageId=8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c"><img src="https://pixexid.com/api/creative-assets/75cdd541-a55d-5c88-ac77-cddfefd7aaf9/public?imageId=8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c" alt="FOLD &amp; FIELD · corrected mark" width="150"></a><br>
+<sub>FOLD &amp; FIELD · corrected mark</sub>
+</td>
+<td align="center" valign="top">
+<strong>5. Style</strong><br>
+<a href="https://pixexid.com/api/creative-assets/d6b5f85f-fbcd-54fc-a157-f095883d6fad/public?imageId=8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c"><img src="https://pixexid.com/api/creative-assets/d6b5f85f-fbcd-54fc-a157-f095883d6fad/public?imageId=8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c" alt="A landscape, folded." width="150"></a><br>
+<sub>A landscape, folded.</sub>
+</td>
+<td align="center" valign="middle"><strong>→</strong></td>
+<td align="center" valign="top">
+<strong>Final AI Image Composition</strong><br>
+<a href="https://pixexid.com/i/mara-brings-tavi-to-life-8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c"><img src="https://images.pixexid.com/mara-brings-tavi-to-life-8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c.jpg" alt="Mara Brings Tavi to Life" width="340"></a><br>
+<sub>Mara Brings Tavi to Life</sub>
+</td>
+</tr>
+</table>
+
+Role labels and order come directly from the public Pixexid recipe.
 
 | Field | Value |
 | --- | --- |
@@ -37,4 +77,4 @@ Build the pavilion from a few monumental folded-paper arches and low terraces in
 | Source SHA-256 | `052bda8e215a0da7d89b1055bba084b421560520791aeb046999e8714a4177ee` |
 | Import manifest SHA-256 | `4544aa86664e92503547f48b458a4c05e0c2d7a202c74a66453f578d53bef811` |
 
-Catalog text and data are licensed under [CC BY 4.0](../LICENSE). The linked image is not relicensed here. Pixexid-admin-owned original AI-generated composition with public source sharing enabled.
+Catalog text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed here. Pixexid-admin-owned original AI-generated composition with public source sharing enabled.

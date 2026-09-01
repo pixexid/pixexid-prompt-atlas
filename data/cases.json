@@ -42,6 +42,83 @@
       "canonical_url": "https://pixexid.com/i/mara-brings-tavi-to-life-8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c",
       "image_url": "https://images.pixexid.com/mara-brings-tavi-to-life-8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c.jpg",
       "composition_url": "https://pixexid.com/ai-composition/6efb2dae-6c8c-4cfc-b4c6-4f21efd6d3ae",
+      "references": [
+        {
+          "order": 1,
+          "role": "identity",
+          "id": "d431ce5f-aada-56e9-a3c0-e9fe41c73185",
+          "title": "Mara in a Neutral Studio Portrait",
+          "description": "Create a fictional adult persona with clear facial features, natural skin texture, and a plain studio setting for testing identity-preserving portrait edits.",
+          "prompt": "Create a photographic reference portrait of one entirely fictional adult woman, approximately 35 years old, with warm medium-brown skin, an oval face, dark brown eyes, gently arched thick eyebrows, a broad natural nose, full lips, and short dense black curls forming a rounded silhouette above her ears. Preserve natural pores and subtle facial asymmetry; no beauty retouching. She wears a plain forest-green crewneck cotton T-shirt without text or graphics, no jewelry, and no eyewear. She faces the camera with level shoulders and a relaxed neutral expression, lips gently closed. Frame from just above the hair to the upper hips in a vertical 9:16 photograph; forearms and hands remain below the crop. Her face must be large enough to examine clearly, with both eyes and both sides of the face unobscured. Use an even warm-gray seamless studio background, a large soft light slightly camera-left, gentle fill, and restrained natural shadows. Keep the clothing, hair edges, and facial details crisp. A single portrait, not a contact sheet or collage. Do not add props, lettering, logos, dramatic grading, or an environment.",
+          "model": "gpt-image-2",
+          "kind": "persona",
+          "dimensions": {
+            "width": 941,
+            "height": 1672
+          },
+          "image_url": "https://pixexid.com/api/creative-assets/d431ce5f-aada-56e9-a3c0-e9fe41c73185/public?imageId=8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c"
+        },
+        {
+          "order": 2,
+          "role": "reference",
+          "id": "5ae202d7-42c8-58e9-a753-dfdd6757a602",
+          "title": "Tavi the Teal Otter Character Reference",
+          "description": "Design a teal otter character with a simple silhouette, cream markings, and a mustard scarf as a clear starting image for new poses and illustrated scenes.",
+          "prompt": "Design a single original illustrated character for a reusable image-edit reference: a small friendly bipedal otter named Tavi. Tavi has a plump pear-shaped teal body, a round head, two small rounded ears, two dark oval eyes, a tiny charcoal oval nose, a cream oval muzzle, and one large cream oval chest patch. Give the otter two short relaxed forepaws, two clearly separated rounded feet planted on the ground, and one broad tapering tail visibly curving out behind the body toward the right side of the picture. A simple mustard-yellow triangular neckerchief is tied around the neck, with one small knot and short ends visible to the side; no other clothing or accessories. Show the entire character from head to feet and tail in a front three-quarter view, with a calm friendly expression and no gesturing. Use polished hand-drawn digital illustration, clean slightly organic outlines, flat shapes, and gentle painted shading rather than glossy 3D. Center the character in a vertical 9:16 canvas on an uncluttered warm off-white background, with only a faint grounding shadow. Make the face, cream markings, scarf construction, paws, and tail unmistakable. No lettering, turnaround panels, extra characters, props, or copied franchise features.",
+          "model": "gpt-image-2",
+          "kind": "character",
+          "dimensions": {
+            "width": 941,
+            "height": 1672
+          },
+          "image_url": "https://pixexid.com/api/creative-assets/5ae202d7-42c8-58e9-a753-dfdd6757a602/public?imageId=8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c"
+        },
+        {
+          "order": 3,
+          "role": "product",
+          "id": "d6d79bd7-150f-578d-a749-61503be2d35a",
+          "title": "The coral bottle",
+          "description": "Create an unbranded bottle reference with matte coral metal, a charcoal screw cap, and clear product geometry for testing recoloring, logos, and new settings.",
+          "prompt": "Photograph one original unbranded reusable metal water bottle as a clean source asset for product image edits. The bottle has a tall straight cylindrical body with matte muted coral powder coating, a softly rounded shoulder, a narrow neck, a closed charcoal-gray screw cap, and one small rigid oval carry loop integrated into the top of the cap. The loop is a single continuous piece with a clearly visible open center; no duplicate handles or loose straps. The base is flat and stable with a subtle rounded lower edge. Show the entire bottle upright, including the top loop and base, from a slightly elevated three-quarter viewpoint so the cap depth and cylindrical volume are clear. The bottle is the only object, centered and occupying roughly three quarters of a vertical 9:16 frame. Place it on a warm pale-gray seamless studio surface and background. Use one broad softbox to camera-left and gentle ambient fill, producing one soft contact shadow and a restrained highlight that describes the matte material. Maintain straight, believable product geometry and a continuous clean silhouette. No branding, printed text, measurement markings, condensation, props, extra lids, hands, or decorative setting.",
+          "model": "gpt-image-2",
+          "kind": "product",
+          "dimensions": {
+            "width": 941,
+            "height": 1672
+          },
+          "image_url": "https://pixexid.com/api/creative-assets/d6d79bd7-150f-578d-a749-61503be2d35a/public?imageId=8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c"
+        },
+        {
+          "order": 4,
+          "role": "logo",
+          "id": "75cdd541-a55d-5c88-ac77-cddfefd7aaf9",
+          "title": "FOLD & FIELD · corrected mark",
+          "description": "Build a crisp botanical logo study with a folded-leaf emblem and a readable wordmark, ready to use as a reference for packaging and material mockups.",
+          "prompt": "Remove the thin white diagonal stripe inside the leaf emblem. The forest-green upper-left region and terracotta lower-right region must meet directly along ONE clean diagonal color boundary, with no white line, gap, outline, highlight or exposed background between them. Fill the former stripe with the adjoining solid colors; retain the leaf silhouette, correct color orientation and overall size. Keep the exact existing wordmark \"FOLD & FIELD\". Edit only this defect in the supplied logo reference. Preserve the white outer canvas, wordmark typography, position, spacing and framing. This is one continuous two-color leaf with an internal color boundary, not two disconnected shapes. Square image.",
+          "model": "gpt-image-2",
+          "kind": "logo",
+          "dimensions": {
+            "width": 1254,
+            "height": 1254
+          },
+          "image_url": "https://pixexid.com/api/creative-assets/75cdd541-a55d-5c88-ac77-cddfefd7aaf9/public?imageId=8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c"
+        },
+        {
+          "order": 5,
+          "role": "style",
+          "id": "d6b5f85f-fbcd-54fc-a157-f095883d6fad",
+          "title": "A landscape, folded.",
+          "description": "Build a sculptural bottle campaign from product and logo references, integrating direct-printed branding into a diagonal composition of folded paper and sunlight.",
+          "prompt": "Replace only the small leaf symbol printed on the bottle in image 1 with the continuous two-color leaf from image 2. Image 1 is the authoritative photograph: retain its original cream/apricot/green folded paper composition, ALL paper colors, smooth matte textures, shadows, camera, bottle and exact lettering. Image 2 supplies ONLY the corrected leaf artwork: green and terracotta touch directly with ZERO white separator. Transfer that no-gap color boundary to the bottle. The leaf stays the same size and location as in image 1. Do not restyle or retexture any surface. Do not recolor the cream paper on the left green. No other modification. Preserve original 9:16 image dimensions and crop.",
+          "model": "gpt-image-2",
+          "kind": "image",
+          "dimensions": {
+            "width": 941,
+            "height": 1672
+          },
+          "image_url": "https://pixexid.com/api/creative-assets/d6b5f85f-fbcd-54fc-a157-f095883d6fad/public?imageId=8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c"
+        }
+      ],
       "recipe": {
         "kind": "edit",
         "assetId": "7009a19f-1de7-5f9b-adc5-12a14b41c6ee",
@@ -115,6 +192,38 @@
       "canonical_url": "https://pixexid.com/i/dev-laughing-in-the-greenhouse-03d91188-a399-5cff-a679-76036c37a3db",
       "image_url": "https://images.pixexid.com/dev-laughing-in-the-greenhouse-03d91188-a399-5cff-a679-76036c37a3db.jpg",
       "composition_url": "https://pixexid.com/ai-composition/c5fa9811-5b24-4bf1-b4a4-ef28506cd382",
+      "references": [
+        {
+          "order": 1,
+          "role": "identity",
+          "id": "4f2152ff-e18d-5cdf-af80-69f4e1e53aed",
+          "title": "Dev Neutral Identity Anchor",
+          "description": "Create a young fictional man with stable wavy hair, eyebrow scar, lean proportions, aligned body views, expressions, and neutral fitted clothing.",
+          "prompt": "Use case: photorealistic-natural\nAsset type: canonical neutral identity anchor for a reusable fictional character\nPrimary request: Create a photographic reference portrait of one entirely fictional young adult man named Dev, approximately 24 years old. He has medium-deep warm brown skin, a long softly angular face, dark brown almond-shaped eyes, thick straight eyebrows, a medium straight nose with a slightly broad tip, a defined cupid's bow with a fuller lower lip, and short thick wavy black hair with a loose natural forelock and tapered sides. He is clean-shaven. Preserve natural pores, faint acne texture on the cheeks, a small diagonal scar through the outer left eyebrow, and subtle facial asymmetry; no beauty retouching or smoothing. He has a lean athletic build with narrow shoulders and long limbs, and wears a plain muted rust-brown crewneck cotton T-shirt without text or graphics, no jewelry, no eyewear, and no accessories. He faces the camera with level shoulders and a relaxed neutral expression, lips gently closed.\nComposition: vertical 9:16 studio reference framed from just above the hair to the upper hips, with the face large enough to inspect and both sides unobscured. Even soft-gray seamless background, large color-neutral soft light slightly camera-left, gentle fill, restrained natural shadows, crisp hair, skin, scar, and fabric detail.\nConstraints: one person, one portrait, not a collage or contact sheet. No props, environment, lettering, logos, dramatic grading, copied celebrity features, cropped hair, beard, mustache, or exaggerated musculature. Keep the identity distinctive, natural, and reproducible.",
+          "model": "gpt-image-2",
+          "kind": "persona",
+          "dimensions": {
+            "width": 941,
+            "height": 1672
+          },
+          "image_url": "https://pixexid.com/api/creative-assets/4f2152ff-e18d-5cdf-af80-69f4e1e53aed/public?imageId=03d91188-a399-5cff-a679-76036c37a3db"
+        },
+        {
+          "order": 2,
+          "role": "reference",
+          "id": "0f72c85b-1306-500e-a991-fb7cbf7e0576",
+          "title": "Dev Neutral Character Sheet",
+          "description": "A neutral full-turnaround identity sheet for Dev with five body angles, expressions, and close details.",
+          "prompt": "Use case: identity-preserve\nAsset type: neutral full-turnaround character sheet for future image edits\nInput roles: Image 1 is the only identity authority for Dev. Image 2 is the approved Pixexid masculine person-sheet layout, clothing logic, panel structure, lighting, and neutral-reference style only; do not copy Niko's face, hair, skin, age, stubble, or stocky body shape.\nPrimary request: Create Dev's character sheet using Image 2's exact information structure. Preserve Dev's recognizable fictional identity from Image 1: apparent age around 24, medium-deep warm brown skin, long softly angular face, dark brown almond-shaped eyes, thick straight eyebrows, medium straight nose with slightly broad tip, defined cupid's bow with fuller lower lip, short thick wavy black hair with loose natural forelock and tapered sides, clean-shaven face, natural pores, faint cheek acne texture, small diagonal scar through the outer left eyebrow, subtle facial asymmetry, and lean athletic body with narrow shoulders and long limbs. Do not add facial hair or exaggerate muscles.\nLayout: On the left two-thirds, show five separate full-body views at the same scale and aligned head/body/feet: front, three-quarter front, profile, three-quarter back, and back. On the upper right, show six equally sized head-and-shoulder expressions: neutral, subtle smile, joyful laugh, focused determination, sadness, and surprise. On the lower right, show three detail studies: wavy forelock plus tapered hairline, dark eye plus eyebrow scar and skin texture, and relaxed natural hand. Leave the remaining lower-right area as plain background; no palette blocks.\nNeutral clothing: one consistent solid light cool-gray matte athletic outfit: a plain close-fitting sleeveless high-neck compression shirt ending at the natural waist and fitted mid-thigh compression shorts with a simple high waist. Smooth non-reflective fabric, no branding or decorative seams. Barefoot in all body views with feet and toes fully visible. Apply the same exact garment construction and color in every panel.\nStyle/medium: high-resolution natural studio photography, even color-neutral softbox lighting, restrained shadows, consistent camera rendering, natural skin, hair, and fabric detail.\nConstraints: every panel is the same Dev with consistent age, face, eyebrow scar, hair shape, clean-shaven jaw, lean long-limbed proportions, anatomy, clothing, and lighting. No color swatches, text, headings, labels, letters, numbers, logos, patterns, stripes, layers, loose fabric, reflective material, jewelry, eyewear, footwear, props, scenery, watermark, or decorative elements. Avoid cropped feet, duplicated limbs, fused hands or toes, facial drift, scar migration, added beard or mustache, hair drift, broadening shoulders, muscle exaggeration, body-shape drift, or wardrobe drift.",
+          "model": "gpt-image-2",
+          "kind": "persona",
+          "dimensions": {
+            "width": 1672,
+            "height": 941
+          },
+          "image_url": "https://pixexid.com/api/creative-assets/0f72c85b-1306-500e-a991-fb7cbf7e0576/public?imageId=03d91188-a399-5cff-a679-76036c37a3db"
+        }
+      ],
       "recipe": {
         "kind": "edit",
         "assetId": "3c5ebf7f-82ac-5d5b-ab01-cc6ececa4c1d",
@@ -188,6 +297,38 @@
       "canonical_url": "https://pixexid.com/i/dev-on-the-rainwashed-boardwalk-2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7",
       "image_url": "https://images.pixexid.com/dev-on-the-rainwashed-boardwalk-2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7.jpg",
       "composition_url": "https://pixexid.com/ai-composition/c5fa9811-5b24-4bf1-b4a4-ef28506cd382",
+      "references": [
+        {
+          "order": 1,
+          "role": "identity",
+          "id": "4f2152ff-e18d-5cdf-af80-69f4e1e53aed",
+          "title": "Dev Neutral Identity Anchor",
+          "description": "Create a young fictional man with stable wavy hair, eyebrow scar, lean proportions, aligned body views, expressions, and neutral fitted clothing.",
+          "prompt": "Use case: photorealistic-natural\nAsset type: canonical neutral identity anchor for a reusable fictional character\nPrimary request: Create a photographic reference portrait of one entirely fictional young adult man named Dev, approximately 24 years old. He has medium-deep warm brown skin, a long softly angular face, dark brown almond-shaped eyes, thick straight eyebrows, a medium straight nose with a slightly broad tip, a defined cupid's bow with a fuller lower lip, and short thick wavy black hair with a loose natural forelock and tapered sides. He is clean-shaven. Preserve natural pores, faint acne texture on the cheeks, a small diagonal scar through the outer left eyebrow, and subtle facial asymmetry; no beauty retouching or smoothing. He has a lean athletic build with narrow shoulders and long limbs, and wears a plain muted rust-brown crewneck cotton T-shirt without text or graphics, no jewelry, no eyewear, and no accessories. He faces the camera with level shoulders and a relaxed neutral expression, lips gently closed.\nComposition: vertical 9:16 studio reference framed from just above the hair to the upper hips, with the face large enough to inspect and both sides unobscured. Even soft-gray seamless background, large color-neutral soft light slightly camera-left, gentle fill, restrained natural shadows, crisp hair, skin, scar, and fabric detail.\nConstraints: one person, one portrait, not a collage or contact sheet. No props, environment, lettering, logos, dramatic grading, copied celebrity features, cropped hair, beard, mustache, or exaggerated musculature. Keep the identity distinctive, natural, and reproducible.",
+          "model": "gpt-image-2",
+          "kind": "persona",
+          "dimensions": {
+            "width": 941,
+            "height": 1672
+          },
+          "image_url": "https://pixexid.com/api/creative-assets/4f2152ff-e18d-5cdf-af80-69f4e1e53aed/public?imageId=2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7"
+        },
+        {
+          "order": 2,
+          "role": "reference",
+          "id": "0f72c85b-1306-500e-a991-fb7cbf7e0576",
+          "title": "Dev Neutral Character Sheet",
+          "description": "A neutral full-turnaround identity sheet for Dev with five body angles, expressions, and close details.",
+          "prompt": "Use case: identity-preserve\nAsset type: neutral full-turnaround character sheet for future image edits\nInput roles: Image 1 is the only identity authority for Dev. Image 2 is the approved Pixexid masculine person-sheet layout, clothing logic, panel structure, lighting, and neutral-reference style only; do not copy Niko's face, hair, skin, age, stubble, or stocky body shape.\nPrimary request: Create Dev's character sheet using Image 2's exact information structure. Preserve Dev's recognizable fictional identity from Image 1: apparent age around 24, medium-deep warm brown skin, long softly angular face, dark brown almond-shaped eyes, thick straight eyebrows, medium straight nose with slightly broad tip, defined cupid's bow with fuller lower lip, short thick wavy black hair with loose natural forelock and tapered sides, clean-shaven face, natural pores, faint cheek acne texture, small diagonal scar through the outer left eyebrow, subtle facial asymmetry, and lean athletic body with narrow shoulders and long limbs. Do not add facial hair or exaggerate muscles.\nLayout: On the left two-thirds, show five separate full-body views at the same scale and aligned head/body/feet: front, three-quarter front, profile, three-quarter back, and back. On the upper right, show six equally sized head-and-shoulder expressions: neutral, subtle smile, joyful laugh, focused determination, sadness, and surprise. On the lower right, show three detail studies: wavy forelock plus tapered hairline, dark eye plus eyebrow scar and skin texture, and relaxed natural hand. Leave the remaining lower-right area as plain background; no palette blocks.\nNeutral clothing: one consistent solid light cool-gray matte athletic outfit: a plain close-fitting sleeveless high-neck compression shirt ending at the natural waist and fitted mid-thigh compression shorts with a simple high waist. Smooth non-reflective fabric, no branding or decorative seams. Barefoot in all body views with feet and toes fully visible. Apply the same exact garment construction and color in every panel.\nStyle/medium: high-resolution natural studio photography, even color-neutral softbox lighting, restrained shadows, consistent camera rendering, natural skin, hair, and fabric detail.\nConstraints: every panel is the same Dev with consistent age, face, eyebrow scar, hair shape, clean-shaven jaw, lean long-limbed proportions, anatomy, clothing, and lighting. No color swatches, text, headings, labels, letters, numbers, logos, patterns, stripes, layers, loose fabric, reflective material, jewelry, eyewear, footwear, props, scenery, watermark, or decorative elements. Avoid cropped feet, duplicated limbs, fused hands or toes, facial drift, scar migration, added beard or mustache, hair drift, broadening shoulders, muscle exaggeration, body-shape drift, or wardrobe drift.",
+          "model": "gpt-image-2",
+          "kind": "persona",
+          "dimensions": {
+            "width": 1672,
+            "height": 941
+          },
+          "image_url": "https://pixexid.com/api/creative-assets/0f72c85b-1306-500e-a991-fb7cbf7e0576/public?imageId=2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7"
+        }
+      ],
       "recipe": {
         "kind": "edit",
         "assetId": "73e0bd5d-f266-5e41-a9d7-c437d941b412",
@@ -261,6 +402,38 @@
       "canonical_url": "https://pixexid.com/i/dev-builds-a-folded-paper-form-ac4ae603-d1fa-547c-ae4c-db37eb39eb77",
       "image_url": "https://images.pixexid.com/dev-builds-a-folded-paper-form-ac4ae603-d1fa-547c-ae4c-db37eb39eb77.jpg",
       "composition_url": "https://pixexid.com/ai-composition/c5fa9811-5b24-4bf1-b4a4-ef28506cd382",
+      "references": [
+        {
+          "order": 1,
+          "role": "identity",
+          "id": "4f2152ff-e18d-5cdf-af80-69f4e1e53aed",
+          "title": "Dev Neutral Identity Anchor",
+          "description": "Create a young fictional man with stable wavy hair, eyebrow scar, lean proportions, aligned body views, expressions, and neutral fitted clothing.",
+          "prompt": "Use case: photorealistic-natural\nAsset type: canonical neutral identity anchor for a reusable fictional character\nPrimary request: Create a photographic reference portrait of one entirely fictional young adult man named Dev, approximately 24 years old. He has medium-deep warm brown skin, a long softly angular face, dark brown almond-shaped eyes, thick straight eyebrows, a medium straight nose with a slightly broad tip, a defined cupid's bow with a fuller lower lip, and short thick wavy black hair with a loose natural forelock and tapered sides. He is clean-shaven. Preserve natural pores, faint acne texture on the cheeks, a small diagonal scar through the outer left eyebrow, and subtle facial asymmetry; no beauty retouching or smoothing. He has a lean athletic build with narrow shoulders and long limbs, and wears a plain muted rust-brown crewneck cotton T-shirt without text or graphics, no jewelry, no eyewear, and no accessories. He faces the camera with level shoulders and a relaxed neutral expression, lips gently closed.\nComposition: vertical 9:16 studio reference framed from just above the hair to the upper hips, with the face large enough to inspect and both sides unobscured. Even soft-gray seamless background, large color-neutral soft light slightly camera-left, gentle fill, restrained natural shadows, crisp hair, skin, scar, and fabric detail.\nConstraints: one person, one portrait, not a collage or contact sheet. No props, environment, lettering, logos, dramatic grading, copied celebrity features, cropped hair, beard, mustache, or exaggerated musculature. Keep the identity distinctive, natural, and reproducible.",
+          "model": "gpt-image-2",
+          "kind": "persona",
+          "dimensions": {
+            "width": 941,
+            "height": 1672
+          },
+          "image_url": "https://pixexid.com/api/creative-assets/4f2152ff-e18d-5cdf-af80-69f4e1e53aed/public?imageId=ac4ae603-d1fa-547c-ae4c-db37eb39eb77"
+        },
+        {
+          "order": 2,
+          "role": "reference",
+          "id": "0f72c85b-1306-500e-a991-fb7cbf7e0576",
+          "title": "Dev Neutral Character Sheet",
+          "description": "A neutral full-turnaround identity sheet for Dev with five body angles, expressions, and close details.",
+          "prompt": "Use case: identity-preserve\nAsset type: neutral full-turnaround character sheet for future image edits\nInput roles: Image 1 is the only identity authority for Dev. Image 2 is the approved Pixexid masculine person-sheet layout, clothing logic, panel structure, lighting, and neutral-reference style only; do not copy Niko's face, hair, skin, age, stubble, or stocky body shape.\nPrimary request: Create Dev's character sheet using Image 2's exact information structure. Preserve Dev's recognizable fictional identity from Image 1: apparent age around 24, medium-deep warm brown skin, long softly angular face, dark brown almond-shaped eyes, thick straight eyebrows, medium straight nose with slightly broad tip, defined cupid's bow with fuller lower lip, short thick wavy black hair with loose natural forelock and tapered sides, clean-shaven face, natural pores, faint cheek acne texture, small diagonal scar through the outer left eyebrow, subtle facial asymmetry, and lean athletic body with narrow shoulders and long limbs. Do not add facial hair or exaggerate muscles.\nLayout: On the left two-thirds, show five separate full-body views at the same scale and aligned head/body/feet: front, three-quarter front, profile, three-quarter back, and back. On the upper right, show six equally sized head-and-shoulder expressions: neutral, subtle smile, joyful laugh, focused determination, sadness, and surprise. On the lower right, show three detail studies: wavy forelock plus tapered hairline, dark eye plus eyebrow scar and skin texture, and relaxed natural hand. Leave the remaining lower-right area as plain background; no palette blocks.\nNeutral clothing: one consistent solid light cool-gray matte athletic outfit: a plain close-fitting sleeveless high-neck compression shirt ending at the natural waist and fitted mid-thigh compression shorts with a simple high waist. Smooth non-reflective fabric, no branding or decorative seams. Barefoot in all body views with feet and toes fully visible. Apply the same exact garment construction and color in every panel.\nStyle/medium: high-resolution natural studio photography, even color-neutral softbox lighting, restrained shadows, consistent camera rendering, natural skin, hair, and fabric detail.\nConstraints: every panel is the same Dev with consistent age, face, eyebrow scar, hair shape, clean-shaven jaw, lean long-limbed proportions, anatomy, clothing, and lighting. No color swatches, text, headings, labels, letters, numbers, logos, patterns, stripes, layers, loose fabric, reflective material, jewelry, eyewear, footwear, props, scenery, watermark, or decorative elements. Avoid cropped feet, duplicated limbs, fused hands or toes, facial drift, scar migration, added beard or mustache, hair drift, broadening shoulders, muscle exaggeration, body-shape drift, or wardrobe drift.",
+          "model": "gpt-image-2",
+          "kind": "persona",
+          "dimensions": {
+            "width": 1672,
+            "height": 941
+          },
+          "image_url": "https://pixexid.com/api/creative-assets/0f72c85b-1306-500e-a991-fb7cbf7e0576/public?imageId=ac4ae603-d1fa-547c-ae4c-db37eb39eb77"
+        }
+      ],
       "recipe": {
         "kind": "edit",
         "assetId": "541337b5-03c6-5572-ae34-86fe98e16e8a",

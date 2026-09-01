@@ -1,8 +1,33 @@
-# Dev Laughing in the Greenhouse
+# Dev Laughing in the Greenhouse — Multi-Reference AI Composition
 
-[![Dev Laughing in the Greenhouse](https://images.pixexid.com/dev-laughing-in-the-greenhouse-03d91188-a399-5cff-a679-76036c37a3db.jpg)](https://pixexid.com/i/dev-laughing-in-the-greenhouse-03d91188-a399-5cff-a679-76036c37a3db)
+**AI Image Composition recipe:** 2 ordered visual references → one final artwork.
 
 A candid greenhouse portrait tests whether Dev’s expressive face preserves his angular structure, eyebrow scar, skin texture, and wavy hair.
+
+## Ordered references → final result
+
+<table>
+<tr>
+<td align="center" valign="top">
+<strong>1. Identity</strong><br>
+<a href="https://pixexid.com/api/creative-assets/4f2152ff-e18d-5cdf-af80-69f4e1e53aed/public?imageId=03d91188-a399-5cff-a679-76036c37a3db"><img src="https://pixexid.com/api/creative-assets/4f2152ff-e18d-5cdf-af80-69f4e1e53aed/public?imageId=03d91188-a399-5cff-a679-76036c37a3db" alt="Dev Neutral Identity Anchor" width="150"></a><br>
+<sub>Dev Neutral Identity Anchor</sub>
+</td>
+<td align="center" valign="top">
+<strong>2. Reference</strong><br>
+<a href="https://pixexid.com/api/creative-assets/0f72c85b-1306-500e-a991-fb7cbf7e0576/public?imageId=03d91188-a399-5cff-a679-76036c37a3db"><img src="https://pixexid.com/api/creative-assets/0f72c85b-1306-500e-a991-fb7cbf7e0576/public?imageId=03d91188-a399-5cff-a679-76036c37a3db" alt="Dev Neutral Character Sheet" width="150"></a><br>
+<sub>Dev Neutral Character Sheet</sub>
+</td>
+<td align="center" valign="middle"><strong>→</strong></td>
+<td align="center" valign="top">
+<strong>Final AI Image Composition</strong><br>
+<a href="https://pixexid.com/i/dev-laughing-in-the-greenhouse-03d91188-a399-5cff-a679-76036c37a3db"><img src="https://images.pixexid.com/dev-laughing-in-the-greenhouse-03d91188-a399-5cff-a679-76036c37a3db.jpg" alt="Dev Laughing in the Greenhouse" width="340"></a><br>
+<sub>Dev Laughing in the Greenhouse</sub>
+</td>
+</tr>
+</table>
+
+Role labels and order come directly from the public Pixexid recipe.
 
 | Field | Value |
 | --- | --- |
@@ -35,4 +60,4 @@ Constraints: one Dev only; preserve identity. No skin smoothing, scar removal or
 | Source SHA-256 | `87143cce2cd3559aa556c83fcb8df2026a05fd2905d4cf75be0e1ddb19f3af9b` |
 | Import manifest SHA-256 | `03887f31c0812519f536ddd8d63481888d3dde73853294aedcd24a3be8d00057` |
 
-Catalog text and data are licensed under [CC BY 4.0](../LICENSE). The linked image is not relicensed here. Pixexid-admin-owned original AI-generated composition using a fictional character.
+Catalog text and data are licensed under [CC BY 4.0](../LICENSE). Linked images are not relicensed here. Pixexid-admin-owned original AI-generated composition using a fictional character.
