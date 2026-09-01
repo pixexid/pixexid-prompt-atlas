@@ -473,8 +473,8 @@
       "id": "e831db80-248c-57f7-a77d-4a35f94520cd",
       "slug": "inez-begins-the-morning-ritual-e831db80-248c-57f7-a77d-4a35f94520cd",
       "title": "Inez Begins the Morning Ritual",
-      "description": "A reusable multi-reference prompt stages a consistent older persona applying Verdessa fragrance in a warm morning ritual while preserving two branded products.",
-      "prompt": "Create a new 9:16 vertical editorial beauty campaign scene using the four ordered references. Reference 1 is Inez's identity anchor and reference 2 is her neutral consistency sheet: preserve her recognizable older Black identity, short natural silver curls, facial structure, skin texture, age detail, body proportions, and hands, while giving her a new natural pose, expression, wardrobe, and environment. Reference 3 is the exact dark-green Verdessa fragrance bottle with its gold head mark. Reference 4 is the exact low green-glass Verdessa candle vessel with its pale wordmark and alabaster lid. Stage Inez at a sculptural warm-alabaster vanity just after sunrise, wearing an elegant loose fern-green robe. She has removed the fragrance cap and is applying a small amount to the inside of one wrist, looking down with a quiet, content half-smile; make the hand action anatomically clear. Place the candle vessel nearby with a single soft flame, scaled correctly and resting securely on the stone. Preserve both products' geometry, materials, caps, logo forms, and readable Verdessa branding without duplicating either product. Soft directional morning light enters from one side and creates one coherent shadow direction, gentle glass reflections, and warm highlights on her skin. Compose this as an intimate lived moment rather than a catalog lineup, with shallow depth but both product identities still readable. No extra bottles, no floating objects, no invented label panels, no de-aged skin, no copied neutral reference clothing, and no contradictory light sources.",
+      "description": "A corrected multi-reference ritual scene preserves Inez and the candle while featuring Verdessa’s accurate flat gold-foil bottle mark.",
+      "prompt": "Create a corrected 9:16 revision using the five ordered references. Reference 1 is the previous published composition and supplies only the overall morning-ritual concept and relationship between Inez, fragrance application, vanity, and candle. References 2 and 3 are Inez's identity anchor and neutral consistency sheet: preserve her recognizable older Black identity, short natural silver curls, facial structure, natural age detail, body proportions, and hands. Reference 4 is the corrected compact dark-green Verdessa fragrance bottle and is the exact product authority: preserve its flat antique-gold head logo, official orientation, face, leaf crown, internal negative spaces, faceted bottle, clear base, cap, and collar with no embossing. Reference 5 is the low green-glass candle vessel with alabaster lid. Recompose Inez at a warm-alabaster vanity just after sunrise in an elegant loose fern-green robe, applying fragrance to the inside of one wrist with anatomically clear hands and a calm half-smile. Keep the fragrance bottle as the readable brand focus. Place the lit candle nearby at a natural three-quarter rear angle so its branded front and wordmark are physically turned away from camera and no candle lettering is visible; preserve its green glass, proportions, flame, and lid. Use one coherent warm morning light direction and believable contact shadows. Do not reproduce the predecessor pixel for pixel; correct the bottle branding and redesign the crop naturally while keeping the same scene concept. No visible candle text, extra bottles, duplicated products, floating objects, label panels, de-aging, copied reference clothing, embossed or inverted bottle logo, or contradictory light sources.",
       "model": "gpt-image-2",
       "model_metadata": {
         "name": "gpt-image-2",
@@ -490,7 +490,7 @@
         "older-woman",
         "morning-ritual",
         "fragrance",
-        "editorial-photography",
+        "gold-foil",
         "verdessa"
       ],
       "colors": [
@@ -511,6 +511,21 @@
       "references": [
         {
           "order": 1,
+          "role": "composition",
+          "id": "6a3e18f8-4470-59af-a7f9-a09ed7a3410a",
+          "title": "Inez Begins the Morning Ritual",
+          "description": "A reusable multi-reference prompt stages a consistent older persona applying Verdessa fragrance in a warm morning ritual while preserving two branded products.",
+          "prompt": "Create a new 9:16 vertical editorial beauty campaign scene using the four ordered references. Reference 1 is Inez's identity anchor and reference 2 is her neutral consistency sheet: preserve her recognizable older Black identity, short natural silver curls, facial structure, skin texture, age detail, body proportions, and hands, while giving her a new natural pose, expression, wardrobe, and environment. Reference 3 is the exact dark-green Verdessa fragrance bottle with its gold head mark. Reference 4 is the exact low green-glass Verdessa candle vessel with its pale wordmark and alabaster lid. Stage Inez at a sculptural warm-alabaster vanity just after sunrise, wearing an elegant loose fern-green robe. She has removed the fragrance cap and is applying a small amount to the inside of one wrist, looking down with a quiet, content half-smile; make the hand action anatomically clear. Place the candle vessel nearby with a single soft flame, scaled correctly and resting securely on the stone. Preserve both products' geometry, materials, caps, logo forms, and readable Verdessa branding without duplicating either product. Soft directional morning light enters from one side and creates one coherent shadow direction, gentle glass reflections, and warm highlights on her skin. Compose this as an intimate lived moment rather than a catalog lineup, with shallow depth but both product identities still readable. No extra bottles, no floating objects, no invented label panels, no de-aged skin, no copied neutral reference clothing, and no contradictory light sources.",
+          "model": "gpt-image-2",
+          "kind": "image",
+          "dimensions": {
+            "width": 941,
+            "height": 1672
+          },
+          "image_url": "https://pixexid.com/api/creative-assets/6a3e18f8-4470-59af-a7f9-a09ed7a3410a/public?imageId=e831db80-248c-57f7-a77d-4a35f94520cd"
+        },
+        {
+          "order": 2,
           "role": "identity",
           "id": "1989c85b-11fc-5f05-abf8-91e7872a026c",
           "title": "Inez Neutral Identity Anchor",
@@ -525,7 +540,7 @@
           "image_url": "https://pixexid.com/api/creative-assets/1989c85b-11fc-5f05-abf8-91e7872a026c/public?imageId=e831db80-248c-57f7-a77d-4a35f94520cd"
         },
         {
-          "order": 2,
+          "order": 3,
           "role": "reference",
           "id": "87b534fb-6ede-5ab2-a8d5-6579ee6bd353",
           "title": "Inez Neutral Character Sheet",
@@ -540,22 +555,22 @@
           "image_url": "https://pixexid.com/api/creative-assets/87b534fb-6ede-5ab2-a8d5-6579ee6bd353/public?imageId=e831db80-248c-57f7-a77d-4a35f94520cd"
         },
         {
-          "order": 3,
+          "order": 4,
           "role": "product",
-          "id": "57e04964-bf2f-5718-a299-06c3ff621e8f",
-          "title": "Verdessa Oil and Fragrance Bottle",
-          "description": "A compact dark-green glass bottle with a gold head mark integrated into its front surface.",
-          "prompt": "",
+          "id": "f34f04ed-97cb-56ff-a288-e0cc74d3da5c",
+          "title": "Verdessa Gold-Foil Fragrance Bottle",
+          "description": "A corrected dark-green fragrance bottle using the authoritative head mark as a crisp flat antique-gold foil transfer.",
+          "prompt": "Edit the supplied unbranded dark forest-green glass fragrance bottle using the supplied official Verdessa head logo as the only branding authority. Apply the exact head logo to the center of the front glass as a thin, flat antique-gold hot-foil transfer or fired metallic screen print. Preserve the logo's original left-right orientation, facial features, leaf arrangement, negative spaces, outline proportions, and fine internal details exactly as shown in the logo reference. The mark must be surface-flat and crisp, with subtle metallic reflection that follows the bottle's front plane; it must not be embossed, debossed, carved, recessed, raised, mirrored, inverted, redrawn, simplified, or converted into a relief. Do not add the Verdessa wordmark, a label, plaque, medallion, border, panel, or other text. Keep the bottle's exact compact faceted geometry, dark green glass, thick clear base, green cap, brushed-gold collar, lighting, perspective, scale, and isolated transparent-background product composition unchanged. Output one polished photorealistic transparent PNG product reference with the correct official head logo clearly legible.",
           "model": "gpt-image-2",
           "kind": "product",
           "dimensions": {
             "width": 1254,
             "height": 1254
           },
-          "image_url": "https://pixexid.com/api/creative-assets/57e04964-bf2f-5718-a299-06c3ff621e8f/public?imageId=e831db80-248c-57f7-a77d-4a35f94520cd"
+          "image_url": "https://pixexid.com/api/creative-assets/f34f04ed-97cb-56ff-a288-e0cc74d3da5c/public?imageId=e831db80-248c-57f7-a77d-4a35f94520cd"
         },
         {
-          "order": 4,
+          "order": 5,
           "role": "product",
           "id": "e520f6c4-eaac-5a80-a921-4cd1d49d2b7e",
           "title": "Verdessa Candle and Incense Vessel",
@@ -572,23 +587,23 @@
       ],
       "recipe": {
         "kind": "edit",
-        "assetId": "6a3e18f8-4470-59af-a7f9-a09ed7a3410a",
+        "assetId": "2ae01c0b-2de6-529d-a01f-0a2c3fbf64fb",
         "sceneId": "d9957c76-c2cd-50c8-bf56-8e34630a0f6e",
         "version": 1,
-        "inputCount": 4,
+        "inputCount": 5,
         "shareInputs": true,
         "collectionId": "abf9e2bd-e7dd-518b-890d-b1acdd1e5160"
       },
       "provenance": {
-        "sha256": "982ef72ac2ecfb4943166856c5a7b76a4f064b1fd5ce89c4dd371a540a65087b",
+        "sha256": "87707e84f5a852ae49ab35379ee522aa1c911590c485c54662b99abdc9d48d04",
         "moderation": "approved",
-        "storage_key": "inez-begins-the-morning-ritual-e831db80-248c-57f7-a77d-4a35f94520cd.jpg",
-        "generated_on": "2026-09-01T21:50:53.075Z",
-        "source_sha256": "42997b9c290633bf1875b9ea48e3e519ec0c4ecaf7c1d3302bb5bd12dd83677f",
-        "import_manifest_sha256": "62ce2896b3ef21877b3f2cc672531c9871c3f3a798364e3f4412a7484d385daf"
+        "storage_key": "inez-begins-the-morning-ritual-f6fdc26b-a22b-5ffb-a330-a65284b1acd3.jpg",
+        "generated_on": "2026-09-01T23:29:13.078Z",
+        "source_sha256": "8f05095c7b042a03d1202108a96978fc03a8951f897c496416ea832dd920cfa4",
+        "import_manifest_sha256": "a2706c57195b48c3c43cb3b6bfeed9aa61989dbb9a8bb20ffe1ae2bb8e5627c9"
       },
       "output": {
-        "bytes": 92792,
+        "bytes": 93429,
         "width": 941,
         "format": "jpeg",
         "height": 1672,
@@ -730,8 +745,8 @@
       "id": "8eb2be67-eeb8-59ad-a4fb-24b1198f16ff",
       "slug": "verdessa-altar-after-rain-8eb2be67-eeb8-59ad-a4fb-24b1198f16ff",
       "title": "Verdessa Altar After Rain",
-      "description": "A cinematic product composition blends three preserved Verdessa assets into a rain-washed greenhouse campaign with unified reflections and scale.",
-      "prompt": "Create a new 16:9 landscape Verdessa campaign composition using the three ordered product references. Preserve reference 1's tall frosted gradient hero vessel and full vertical logo, reference 2's ivory premium carton with restrained centered full logo and green-gold edging, and reference 3's compact dark-green fragrance bottle with gold head-only mark. Stage them across staggered pieces of pale carved limestone in a greenhouse immediately after rain, with wet stone, fine droplets on nearby glass, blurred fern structures beyond, and a shallow reflective water channel passing through the foreground. Make the hero vessel the tall left anchor, the carton a quieter architectural form set farther back, and the fragrance bottle the sharp foreground focus on the right. Use a low three-quarter camera angle and diffused storm-clearing daylight from one direction, with coherent soft reflections and believable contact shadows. Let a few living fern fronds cross the composition without covering any logo. Preserve every product's geometry, relative scale, materials, closure, brand mark, and exact visible wordmark; do not redesign packaging. Avoid a centered catalog lineup: use asymmetry, depth, partial environmental occlusion, and purposeful negative space in the upper right. No duplicated products, extra light sources, floating objects, fake label plaques, new text, or oversized logos.",
+      "description": "A corrected rain-washed campaign preserves three Verdessa products while replacing the bottle relief with the accurate flat gold-foil mark.",
+      "prompt": "Create a corrected 16:9 revision using the four ordered references. Reference 1 is the previous published rain-greenhouse composition and supplies the overall campaign concept, asymmetrical depth, limestone staging, water, and post-rain atmosphere. Reference 2 is the exact tall frosted gradient Verdessa hero vessel with full vertical logo. Reference 3 is the exact ivory Verdessa premium carton with restrained full logo and green-gold edging. Reference 4 is the corrected compact dark-green fragrance bottle and is the exact product authority: preserve its flat antique-gold head logo in the official orientation with the correct face, leaf crown, internal negative spaces, crisp non-embossed foil edges, faceted bottle, thick clear base, green cap, and gold collar. Recompose the three products across staggered pale carved limestone inside a greenhouse immediately after rain, with wet stone, fine glass droplets, blurred ferns, and a shallow reflective water channel. Keep the hero vessel as the tall left anchor, the carton quieter and farther back, and the corrected fragrance bottle as the sharp foreground focus on the right. Use one direction of diffused storm-clearing daylight, coherent reflections, and believable contact shadows. Preserve each product's geometry, relative scale, material, closure, and exact brand format. Do not reproduce the predecessor pixel for pixel; correct the bottle branding while retaining the campaign idea. No duplicated products, extra light sources, floating objects, fake label plaques, new text, oversized logos, or embossed, mirrored, inverted, or simplified bottle mark.",
       "model": "gpt-image-2",
       "model_metadata": {
         "name": "gpt-image-2",
@@ -746,7 +761,7 @@
         "after-rain",
         "luxury-packaging",
         "fragrance",
-        "glass",
+        "gold-foil",
         "editorial-still-life",
         "verdessa"
       ],
@@ -759,7 +774,7 @@
       ],
       "dimensions": {
         "width": 1672,
-        "height": 941
+        "height": 940
       },
       "created_at": "2026-09-01T21:50:53.075+00:00",
       "canonical_url": "https://pixexid.com/i/verdessa-altar-after-rain-8eb2be67-eeb8-59ad-a4fb-24b1198f16ff",
@@ -768,6 +783,21 @@
       "references": [
         {
           "order": 1,
+          "role": "composition",
+          "id": "da71773c-c6f7-50be-a0b5-aa98a9d7812d",
+          "title": "Verdessa Altar After Rain",
+          "description": "A cinematic product composition blends three preserved Verdessa assets into a rain-washed greenhouse campaign with unified reflections and scale.",
+          "prompt": "Create a new 16:9 landscape Verdessa campaign composition using the three ordered product references. Preserve reference 1's tall frosted gradient hero vessel and full vertical logo, reference 2's ivory premium carton with restrained centered full logo and green-gold edging, and reference 3's compact dark-green fragrance bottle with gold head-only mark. Stage them across staggered pieces of pale carved limestone in a greenhouse immediately after rain, with wet stone, fine droplets on nearby glass, blurred fern structures beyond, and a shallow reflective water channel passing through the foreground. Make the hero vessel the tall left anchor, the carton a quieter architectural form set farther back, and the fragrance bottle the sharp foreground focus on the right. Use a low three-quarter camera angle and diffused storm-clearing daylight from one direction, with coherent soft reflections and believable contact shadows. Let a few living fern fronds cross the composition without covering any logo. Preserve every product's geometry, relative scale, materials, closure, brand mark, and exact visible wordmark; do not redesign packaging. Avoid a centered catalog lineup: use asymmetry, depth, partial environmental occlusion, and purposeful negative space in the upper right. No duplicated products, extra light sources, floating objects, fake label plaques, new text, or oversized logos.",
+          "model": "gpt-image-2",
+          "kind": "image",
+          "dimensions": {
+            "width": 1672,
+            "height": 941
+          },
+          "image_url": "https://pixexid.com/api/creative-assets/da71773c-c6f7-50be-a0b5-aa98a9d7812d/public?imageId=8eb2be67-eeb8-59ad-a4fb-24b1198f16ff"
+        },
+        {
+          "order": 2,
           "role": "product",
           "id": "4cb30462-3c12-5eb2-a62f-d12ada3c1ea9",
           "title": "Verdessa Frosted Hero Vessel",
@@ -782,7 +812,7 @@
           "image_url": "https://pixexid.com/api/creative-assets/4cb30462-3c12-5eb2-a62f-d12ada3c1ea9/public?imageId=8eb2be67-eeb8-59ad-a4fb-24b1198f16ff"
         },
         {
-          "order": 2,
+          "order": 3,
           "role": "product",
           "id": "967a1d33-24f0-5edc-a235-2168bc9917d0",
           "title": "Verdessa Premium Carton",
@@ -797,43 +827,43 @@
           "image_url": "https://pixexid.com/api/creative-assets/967a1d33-24f0-5edc-a235-2168bc9917d0/public?imageId=8eb2be67-eeb8-59ad-a4fb-24b1198f16ff"
         },
         {
-          "order": 3,
+          "order": 4,
           "role": "product",
-          "id": "57e04964-bf2f-5718-a299-06c3ff621e8f",
-          "title": "Verdessa Oil and Fragrance Bottle",
-          "description": "A compact dark-green glass bottle with a gold head mark integrated into its front surface.",
-          "prompt": "",
+          "id": "f34f04ed-97cb-56ff-a288-e0cc74d3da5c",
+          "title": "Verdessa Gold-Foil Fragrance Bottle",
+          "description": "A corrected dark-green fragrance bottle using the authoritative head mark as a crisp flat antique-gold foil transfer.",
+          "prompt": "Edit the supplied unbranded dark forest-green glass fragrance bottle using the supplied official Verdessa head logo as the only branding authority. Apply the exact head logo to the center of the front glass as a thin, flat antique-gold hot-foil transfer or fired metallic screen print. Preserve the logo's original left-right orientation, facial features, leaf arrangement, negative spaces, outline proportions, and fine internal details exactly as shown in the logo reference. The mark must be surface-flat and crisp, with subtle metallic reflection that follows the bottle's front plane; it must not be embossed, debossed, carved, recessed, raised, mirrored, inverted, redrawn, simplified, or converted into a relief. Do not add the Verdessa wordmark, a label, plaque, medallion, border, panel, or other text. Keep the bottle's exact compact faceted geometry, dark green glass, thick clear base, green cap, brushed-gold collar, lighting, perspective, scale, and isolated transparent-background product composition unchanged. Output one polished photorealistic transparent PNG product reference with the correct official head logo clearly legible.",
           "model": "gpt-image-2",
           "kind": "product",
           "dimensions": {
             "width": 1254,
             "height": 1254
           },
-          "image_url": "https://pixexid.com/api/creative-assets/57e04964-bf2f-5718-a299-06c3ff621e8f/public?imageId=8eb2be67-eeb8-59ad-a4fb-24b1198f16ff"
+          "image_url": "https://pixexid.com/api/creative-assets/f34f04ed-97cb-56ff-a288-e0cc74d3da5c/public?imageId=8eb2be67-eeb8-59ad-a4fb-24b1198f16ff"
         }
       ],
       "recipe": {
         "kind": "edit",
-        "assetId": "da71773c-c6f7-50be-a0b5-aa98a9d7812d",
+        "assetId": "0e54832a-872c-5cc5-a116-4c4f9db2804c",
         "sceneId": "da610152-137e-580a-a75b-4c4517bac4a1",
         "version": 1,
-        "inputCount": 3,
+        "inputCount": 4,
         "shareInputs": true,
         "collectionId": "abf9e2bd-e7dd-518b-890d-b1acdd1e5160"
       },
       "provenance": {
-        "sha256": "fe75d42d55500a498ad1009febaf712363ade83608c6e90a5bbc6fc4327e253b",
+        "sha256": "b12ee7d2729b1418838638b05bbdbf64ea4fdbae6e11e0e998f5e29884ddf3ec",
         "moderation": "approved",
-        "storage_key": "verdessa-altar-after-rain-8eb2be67-eeb8-59ad-a4fb-24b1198f16ff.jpg",
-        "generated_on": "2026-09-01T21:50:53.075Z",
-        "source_sha256": "4ca94110c786f67fc954e094448fcb36996401029fc75805fbf7835c18b82d29",
-        "import_manifest_sha256": "cbc365f839b765f56ea95a8d07f1b6ef608748130f8db3b98a4e484203474feb"
+        "storage_key": "verdessa-altar-after-rain-1d0551f0-c46a-5b2a-a81f-6bf436a5fbd9.jpg",
+        "generated_on": "2026-09-01T23:29:13.078Z",
+        "source_sha256": "3b1709ecad975dfa37208db0fe28744079d30148597849027556775454151536",
+        "import_manifest_sha256": "b16c1fb412b5241766162a7b435ced7e85743dad3cbc637e9738eee3ffc15e46"
       },
       "output": {
-        "bytes": 141791,
+        "bytes": 149899,
         "width": 1672,
         "format": "jpeg",
-        "height": 941,
+        "height": 940,
         "colorspace": "srgb"
       },
       "post_processing": {
