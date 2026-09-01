@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/pixexid/pixexid-prompt-atlas/schema/cases.schema.json",
+  "title": "Pixexid Prompt Atlas",
+  "type": "object",
+  "required": ["schema_version", "cases"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "cases": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id", "slug", "title", "description", "prompt", "model",
+          "model_metadata", "tags", "colors", "dimensions", "created_at",
+          "canonical_url", "image_url", "composition_url", "recipe",
+          "provenance", "output", "post_processing", "rights", "source_api"
+        ],
+        "properties": {
+          "id": { "type": "string", "format": "uuid" },
+          "slug": { "type": "string", "minLength": 1 },
+          "title": { "type": "string", "minLength": 1 },
+          "description": { "type": "string", "minLength": 1 },
+          "prompt": { "type": "string", "minLength": 1 },
+          "model": { "type": "string", "minLength": 1 },
+          "canonical_url": { "type": "string", "format": "uri" },
+          "image_url": { "type": "string", "format": "uri" },
+          "composition_url": { "type": "string", "format": "uri" },
+          "source_api": { "type": "string", "format": "uri" }
+        }
+      }
+    }
+  }
+}

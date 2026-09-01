@@ -1,0 +1,300 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "id": "8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c",
+      "slug": "mara-brings-tavi-to-life-8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c",
+      "title": "Mara Brings Tavi to Life",
+      "description": "Compose a playful brand campaign that turns a character reference into a life-size paper sculpture while preserving a persona, product, and logo.",
+      "prompt": "Create a new wide 16:9 editorial campaign photograph from five supplied references. Image 1 is Mara's identity reference: preserve her recognizable oval face, warm medium-brown skin, dark brown eyes, short dense black curls, natural facial proportions and realistic skin texture, while changing her pose, expression, clothing and setting. Image 2 is Tavi's character reference: preserve the friendly teal otter's round ears, dark oval eyes, cream muzzle and belly patch, mustard neckerchief, short paws, rounded feet and one broad tapering tail. Image 3 is the product reference: preserve the coral cylindrical bottle, rounded shoulder, charcoal screw cap and exactly one integrated open carry loop. Image 4 is the authoritative FOLD & FIELD mark: preserve the continuous leaf with forest green upper-left and terracotta lower-right meeting directly with no white seam, plus the exact uppercase wordmark \"FOLD & FIELD\". Image 5 supplies only a material and palette language: tactile cream, apricot and forest-green folded paper, bold geometric planes and hard warm sunlight. Do not copy its portrait crop, bottle placement, canyon layout or object-by-object arrangement.\n\nStage an entirely new life-size paper-art pavilion in a bright public conservatory. Make a low, wide environmental composition photographed at human eye level. Mara is full-body on the left third, kneeling on one knee and leaning forward with an open joyful smile as she ties the loose end of Tavi's mustard scarf into place. Dress her in a practical cream canvas overshirt with rolled sleeves, forest-green trousers and terracotta sneakers. Preserve her identity rather than turning her into a generic model. Her hands must make clear, anatomically believable contact with the scarf.\n\nTavi stands on the center-right as a waist-high sculptural companion built from layered teal and cream paper, with visible folded facets and softly deckled edges. Translate the original illustration into a dimensional sculpture while preserving its simple proportions, facial warmth, cream markings and single tail. Give Tavi a delighted expression and a slight forward lean toward Mara; keep both feet structurally supported on the pavilion floor. No extra paws, ears, tails or scarf knots.\n\nMara holds the coral bottle naturally by its single cap loop in her relaxed left hand near her knee. The bottle remains fully recognizable and unobstructed. Print the complete corrected FOLD & FIELD lockup once, modestly on the bottle body, projected around the cylinder without a sticker, white rectangle, mirrored leaf or misspelled letters. Do not place the logo anywhere else.\n\nBuild the pavilion from a few monumental folded-paper arches and low terraces in warm cream, pale apricot and forest green, arranged as a new sweeping spiral that frames Mara and Tavi without repeating Image 5. One broad skylight from upper left creates all cast shadows; soft ambient fill keeps faces, paper facets and bottle branding legible. Match contact shadows, scale and color spill across the human, sculpture, bottle and set. Keep the scene playful, tactile and physically coherent. No collage panels, duplicate subjects, floating objects, unrelated text, extra bottles, extra light sources or copied composition.",
+      "model": "gpt-image-2",
+      "model_metadata": {
+        "name": "gpt-image-2",
+        "family": "openai-image",
+        "params": {}
+      },
+      "tags": [
+        "multi-reference-edit",
+        "creative-compositing",
+        "editorial-photography",
+        "paper-art",
+        "character-sculpture",
+        "identity-preservation",
+        "product-campaign",
+        "logo-integration",
+        "environmental-portrait",
+        "art-installation",
+        "folded-paper",
+        "playful"
+      ],
+      "colors": [
+        "#24443B",
+        "#276C70",
+        "#D9775F",
+        "#D7A236",
+        "#EEDCCA"
+      ],
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "created_at": "2026-09-01T02:00:00+00:00",
+      "canonical_url": "https://pixexid.com/i/mara-brings-tavi-to-life-8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c",
+      "image_url": "https://images.pixexid.com/mara-brings-tavi-to-life-8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c.jpg",
+      "composition_url": "https://pixexid.com/ai-composition/6efb2dae-6c8c-4cfc-b4c6-4f21efd6d3ae",
+      "recipe": {
+        "kind": "edit",
+        "assetId": "7009a19f-1de7-5f9b-adc5-12a14b41c6ee",
+        "sceneId": "1e4140e7-1b97-4132-8ea9-7175e79be4f0",
+        "version": 1,
+        "inputCount": 5,
+        "shareInputs": true,
+        "collectionId": "6efb2dae-6c8c-4cfc-b4c6-4f21efd6d3ae"
+      },
+      "provenance": {
+        "sha256": "1b8f46133d7c4d1b6bebdecb12bff0ce42d03e04d0d93c26c5a70e474b1ba58d",
+        "moderation": "approved",
+        "storage_key": "mara-brings-tavi-to-life-8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c.jpg",
+        "generated_on": "2026-09-01T02:00:00.000Z",
+        "source_sha256": "052bda8e215a0da7d89b1055bba084b421560520791aeb046999e8714a4177ee",
+        "import_manifest_sha256": "4544aa86664e92503547f48b458a4c05e0c2d7a202c74a66453f578d53bef811"
+      },
+      "output": {
+        "bytes": 96711,
+        "width": 1672,
+        "format": "jpeg",
+        "height": 941,
+        "colorspace": "srgb"
+      },
+      "post_processing": {
+        "fx": {},
+        "upscaler": null
+      },
+      "rights": {
+        "attribution": "Pixexid",
+        "basis": "Pixexid-admin-owned original AI-generated composition with public source sharing enabled.",
+        "linked_image_license": "Excluded from this repository's CC BY 4.0 catalog license; see Pixexid Terms."
+      },
+      "source_api": "https://pixexid.com/api/picture/by-filename/mara-brings-tavi-to-life-8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c"
+    },
+    {
+      "id": "03d91188-a399-5cff-a679-76036c37a3db",
+      "slug": "dev-laughing-in-the-greenhouse-03d91188-a399-5cff-a679-76036c37a3db",
+      "title": "Dev Laughing in the Greenhouse",
+      "description": "A candid greenhouse portrait tests whether Dev’s expressive face preserves his angular structure, eyebrow scar, skin texture, and wavy hair.",
+      "prompt": "Use case: identity-preserve\nAsset type: character consistency benchmark · emotional close-up\nInput roles: Image 1 is Dev's primary facial identity anchor. Image 2 establishes his lean proportions, wavy-hair construction, expressions, eyebrow scar, and profile. Use both only as identity references; create one new scene with one Dev, never reproduce the sheet or multiple versions of him.\nPrimary request: Photograph Dev inside a sunlit community greenhouse at mid-morning just after a fine misting system has switched off. Frame a vertical 9:16 close portrait from mid-torso upward as he turns slightly toward camera and gives a genuine open laugh, eyes engaged and cheeks naturally lifted. He wears a simple matte sage-green linen button shirt with the collar open, no jewelry or accessories. Soft leaves and diffused glass architecture fall out of focus behind him; tiny water droplets catch restrained daylight without creating glamour retouching.\nIdentity locks: preserve Dev as the same fictional man around 24 years old with medium-deep warm brown skin, long softly angular face, dark brown almond eyes, thick straight eyebrows, the small diagonal scar through the outer left eyebrow, medium straight nose with slightly broad tip, defined cupid's bow and fuller lower lip, short thick wavy black hair with loose forelock and tapered sides, clean-shaven jaw, natural pores, faint cheek acne texture, subtle facial asymmetry, and lean long-limbed proportions. His laugh must animate the same face.\nStyle/medium: natural editorial photography, color-neutral daylight, realistic skin and hair, shallow depth of field, candid warmth rather than posed glamour.\nConstraints: one Dev only; preserve identity. No skin smoothing, scar removal or migration, added beard or mustache, hair straightening, hair-length change, face widening, muscle exaggeration, jewelry, eyewear, text, logo, watermark, duplicated person, extra limbs, or conflicting light sources.",
+      "model": "gpt-image-2",
+      "model_metadata": {
+        "name": "gpt-image-2",
+        "family": "openai-image",
+        "params": {}
+      },
+      "tags": [
+        "dev-character",
+        "young-man",
+        "identity-preservation",
+        "photoreal-character",
+        "greenhouse-portrait",
+        "joyful-expression",
+        "natural-light",
+        "editorial-photography",
+        "multi-reference-edit"
+      ],
+      "colors": [
+        "#213D34",
+        "#9B6347",
+        "#222225",
+        "#D8D9DC",
+        "#E8DCC8"
+      ],
+      "dimensions": {
+        "width": 941,
+        "height": 1672
+      },
+      "created_at": "2026-09-01T05:23:26.937+00:00",
+      "canonical_url": "https://pixexid.com/i/dev-laughing-in-the-greenhouse-03d91188-a399-5cff-a679-76036c37a3db",
+      "image_url": "https://images.pixexid.com/dev-laughing-in-the-greenhouse-03d91188-a399-5cff-a679-76036c37a3db.jpg",
+      "composition_url": "https://pixexid.com/ai-composition/c5fa9811-5b24-4bf1-b4a4-ef28506cd382",
+      "recipe": {
+        "kind": "edit",
+        "assetId": "3c5ebf7f-82ac-5d5b-ab01-cc6ececa4c1d",
+        "sceneId": "29e10931-bd86-49d4-8bb1-e182a0f894a0",
+        "version": 1,
+        "inputCount": 2,
+        "shareInputs": true,
+        "collectionId": "c5fa9811-5b24-4bf1-b4a4-ef28506cd382"
+      },
+      "provenance": {
+        "sha256": "7efd4e14d3d5463a290729cb55bb923f4d7ad3f159912788e22bc779ea068ab6",
+        "moderation": "approved",
+        "storage_key": "dev-laughing-in-the-greenhouse-03d91188-a399-5cff-a679-76036c37a3db.jpg",
+        "generated_on": "2026-09-01T05:23:26.937Z",
+        "source_sha256": "87143cce2cd3559aa556c83fcb8df2026a05fd2905d4cf75be0e1ddb19f3af9b",
+        "import_manifest_sha256": "03887f31c0812519f536ddd8d63481888d3dde73853294aedcd24a3be8d00057"
+      },
+      "output": {
+        "bytes": 96316,
+        "width": 941,
+        "format": "jpeg",
+        "height": 1672,
+        "colorspace": "srgb"
+      },
+      "post_processing": {
+        "fx": {},
+        "upscaler": null
+      },
+      "rights": {
+        "attribution": "Pixexid",
+        "basis": "Pixexid-admin-owned original AI-generated composition using a fictional character.",
+        "linked_image_license": "Excluded from this repository's CC BY 4.0 catalog license; see Pixexid Terms."
+      },
+      "source_api": "https://pixexid.com/api/picture/by-filename/dev-laughing-in-the-greenhouse-03d91188-a399-5cff-a679-76036c37a3db"
+    },
+    {
+      "id": "2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7",
+      "slug": "dev-on-the-rainwashed-boardwalk-2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7",
+      "title": "Dev on the Rainwashed Boardwalk",
+      "description": "A full-body walking scene tests Dev’s lean long-limbed proportions, hair, clean-shaven identity, and motion under a wardrobe change.",
+      "prompt": "Use case: identity-preserve\nAsset type: character consistency benchmark · full-body motion\nInput roles: Image 1 is Dev's facial identity anchor. Image 2 establishes his complete lean long-limbed body proportions, wavy-hair construction, profile, rear view, eyebrow scar, and anatomy. Use both only as identity references; create one new scene with one Dev, never reproduce the sheet or multiple versions of him.\nPrimary request: Create a vertical 9:16 natural editorial photograph of Dev walking with a purposeful comfortable stride along a windswept coastal boardwalk just after light rain. Show his entire body from head to shoes, mid-step, viewed from a low three-quarter front angle with the ocean and pale concrete rail receding behind him. He looks toward the water with a calm focused expression while one hand steadies the open edge of a lightweight ochre rain shell. Under it he wears a plain cream crewneck top, dark navy tapered trousers, and practical charcoal walking shoes. Wind affects his loose forelock and jacket in one coherent direction without changing hair construction. Wet boards carry one coherent soft reflection and the overcast sky provides broad cool daylight.\nIdentity locks: preserve Dev as the same fictional man around 24 with medium-deep warm brown skin, long softly angular face, dark brown almond eyes, thick straight eyebrows, diagonal scar through the outer left eyebrow, medium straight nose with slightly broad tip, defined cupid's bow and fuller lower lip, short thick wavy black hair with loose forelock and tapered sides, clean-shaven jaw, natural cheek texture, subtle facial asymmetry, lean athletic build, narrow shoulders, and long limbs.\nConstraints: one Dev only; full body and both shoes visible; physically plausible gait, wind, and fabric. No scar removal or migration, added beard or mustache, hair straightening, hair-length change, body broadening, muscle exaggeration, face change, skin smoothing, jewelry, text, logos, watermark, duplicated limbs, fused hands, extra fingers, conflicting reflections, or extra light sources.",
+      "model": "gpt-image-2",
+      "model_metadata": {
+        "name": "gpt-image-2",
+        "family": "openai-image",
+        "params": {}
+      },
+      "tags": [
+        "dev-character",
+        "young-man",
+        "identity-preservation",
+        "photoreal-character",
+        "rainwashed-boardwalk",
+        "walking-scene",
+        "full-body-portrait",
+        "cinematic-photography",
+        "multi-reference-edit"
+      ],
+      "colors": [
+        "#213D34",
+        "#9B6347",
+        "#222225",
+        "#D8D9DC",
+        "#E8DCC8"
+      ],
+      "dimensions": {
+        "width": 941,
+        "height": 1672
+      },
+      "created_at": "2026-09-01T05:27:04.204+00:00",
+      "canonical_url": "https://pixexid.com/i/dev-on-the-rainwashed-boardwalk-2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7",
+      "image_url": "https://images.pixexid.com/dev-on-the-rainwashed-boardwalk-2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7.jpg",
+      "composition_url": "https://pixexid.com/ai-composition/c5fa9811-5b24-4bf1-b4a4-ef28506cd382",
+      "recipe": {
+        "kind": "edit",
+        "assetId": "73e0bd5d-f266-5e41-a9d7-c437d941b412",
+        "sceneId": "e054cb2b-16c9-461b-b9cc-bc8d6461e113",
+        "version": 1,
+        "inputCount": 2,
+        "shareInputs": true,
+        "collectionId": "c5fa9811-5b24-4bf1-b4a4-ef28506cd382"
+      },
+      "provenance": {
+        "sha256": "90a7619eb1e1fd96f9735daccbddab0fda58f00f2b25ee741ca04b64b680fc95",
+        "moderation": "approved",
+        "storage_key": "dev-on-the-rainwashed-boardwalk-2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7.jpg",
+        "generated_on": "2026-09-01T05:27:04.204Z",
+        "source_sha256": "5967be31cbf658f337bd22af60acaaa93004a7b2730947ef6c425bcf490c610d",
+        "import_manifest_sha256": "64df439223e2f2d0f37d89ff537f53f361a3f0ff516076b7552934694cd49068"
+      },
+      "output": {
+        "bytes": 83439,
+        "width": 941,
+        "format": "jpeg",
+        "height": 1672,
+        "colorspace": "srgb"
+      },
+      "post_processing": {
+        "fx": {},
+        "upscaler": null
+      },
+      "rights": {
+        "attribution": "Pixexid",
+        "basis": "Pixexid-admin-owned original AI-generated composition using a fictional character.",
+        "linked_image_license": "Excluded from this repository's CC BY 4.0 catalog license; see Pixexid Terms."
+      },
+      "source_api": "https://pixexid.com/api/picture/by-filename/dev-on-the-rainwashed-boardwalk-2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7"
+    },
+    {
+      "id": "ac4ae603-d1fa-547c-ae4c-db37eb39eb77",
+      "slug": "dev-builds-a-folded-paper-form-ac4ae603-d1fa-547c-ae4c-db37eb39eb77",
+      "title": "Dev Builds a Folded Paper Form",
+      "description": "A wide studio scene tests Dev’s identity, lean proportions, hands, eyebrow scar, and physical interaction with a three-panel sculpture.",
+      "prompt": "Use case: identity-preserve\nAsset type: character consistency benchmark · wide object interaction\nInput roles: Image 1 is Dev's facial identity anchor. Image 2 establishes his complete body proportions, hair, eyebrow scar, hands, profile, rear view, and expressions. Use both only as identity references; create one new wide scene with one Dev, never reproduce the sheet or multiple versions of him.\nPrimary request: Create a polished 16:9 editorial photograph inside an airy community design studio. Dev stands in a natural three-quarter full-body pose beside a waist-high freestanding paper sculpture made from exactly three large folded panels: warm cream, muted coral, and deep forest green. He wears matte indigo canvas coveralls over a rust-colored crewneck T-shirt with sleeves rolled once, plus simple tan work shoes. With his left hand he steadies the forest-green panel near its upper edge; with his right hand he carefully tightens one visible brass connector where the cream and coral panels meet. Show both hands clearly performing different, physically connected tasks. The sculpture must stand on its own low plywood platform with plausible folds, joints, weight, and contact shadows. Directional afternoon window light crosses the studio once; a workbench and paper offcuts remain softly secondary in the background.\nIdentity locks: preserve Dev as the same fictional man around 24 with medium-deep warm brown skin, long softly angular face, dark brown almond eyes, thick straight eyebrows, diagonal scar through the outer left eyebrow, medium straight nose with slightly broad tip, defined cupid's bow and fuller lower lip, short thick wavy black hair with loose forelock and tapered sides, clean-shaven jaw, natural cheek texture, lean athletic build, narrow shoulders, and long limbs. The new clothing and task must not broaden or over-muscle him.\nConstraints: one Dev, exactly three sculpture panels, one brass connector interaction, full body visible. No scar removal or migration, added facial hair, hairstyle drift, body broadening, impossible balance, pasted objects, duplicated panels, duplicated hands, fused fingers, extra limbs, floating tools, text, logos, watermark, or conflicting light sources.",
+      "model": "gpt-image-2",
+      "model_metadata": {
+        "name": "gpt-image-2",
+        "family": "openai-image",
+        "params": {}
+      },
+      "tags": [
+        "dev-character",
+        "young-man",
+        "identity-preservation",
+        "photoreal-character",
+        "design-studio",
+        "paper-sculpture",
+        "creative-process",
+        "environmental-portrait",
+        "multi-reference-edit"
+      ],
+      "colors": [
+        "#213D34",
+        "#9B6347",
+        "#222225",
+        "#D8D9DC",
+        "#E8DCC8"
+      ],
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "created_at": "2026-09-01T05:43:27.106+00:00",
+      "canonical_url": "https://pixexid.com/i/dev-builds-a-folded-paper-form-ac4ae603-d1fa-547c-ae4c-db37eb39eb77",
+      "image_url": "https://images.pixexid.com/dev-builds-a-folded-paper-form-ac4ae603-d1fa-547c-ae4c-db37eb39eb77.jpg",
+      "composition_url": "https://pixexid.com/ai-composition/c5fa9811-5b24-4bf1-b4a4-ef28506cd382",
+      "recipe": {
+        "kind": "edit",
+        "assetId": "541337b5-03c6-5572-ae34-86fe98e16e8a",
+        "sceneId": "db4c26e8-b389-4908-9dfe-01d0987ff446",
+        "version": 1,
+        "inputCount": 2,
+        "shareInputs": true,
+        "collectionId": "c5fa9811-5b24-4bf1-b4a4-ef28506cd382"
+      },
+      "provenance": {
+        "sha256": "c3ff1e3a20fa0c1202311960d70603ddc4cab50dd180f5d0231ed86c58a604b6",
+        "moderation": "approved",
+        "storage_key": "dev-builds-a-folded-paper-form-ac4ae603-d1fa-547c-ae4c-db37eb39eb77.jpg",
+        "generated_on": "2026-09-01T05:43:27.106Z",
+        "source_sha256": "c4f3288ec2ef796fb3cfd4c43b7400b0a61c26d6ac94522cd008a902c2db98e5",
+        "import_manifest_sha256": "c320107cf1dc8fe02338f2056bb456fdaa3dac69c774c596cee18d6e0cfe4f2a"
+      },
+      "output": {
+        "bytes": 63571,
+        "width": 1672,
+        "format": "jpeg",
+        "height": 941,
+        "colorspace": "srgb"
+      },
+      "post_processing": {
+        "fx": {},
+        "upscaler": null
+      },
+      "rights": {
+        "attribution": "Pixexid",
+        "basis": "Pixexid-admin-owned original AI-generated composition using a fictional character.",
+        "linked_image_license": "Excluded from this repository's CC BY 4.0 catalog license; see Pixexid Terms."
+      },
+      "source_api": "https://pixexid.com/api/picture/by-filename/dev-builds-a-folded-paper-form-ac4ae603-d1fa-547c-ae4c-db37eb39eb77"
+    }
+  ]
+}
