@@ -330,6 +330,7 @@ Create and explore more [AI Image Compositions on Pixexid](https://pixexid.com).
 
 const cases = [];
 for (const source of sources) cases.push(await fetchCase(source));
+cases.sort((a, b) => b.created_at.localeCompare(a.created_at));
 
 await mkdir(join(root, "cases"), { recursive: true });
 await writeFile(
