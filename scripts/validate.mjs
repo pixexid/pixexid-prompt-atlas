@@ -132,9 +132,7 @@ for (const item of catalog.cases) {
     ["README", readme],
     ["Case", casePage],
   ]) {
-    let cursor = page.indexOf(
-      `## ${String(catalog.cases.indexOf(item) + 1).padStart(2, "0")} —`,
-    );
+    let cursor = page.indexOf(`## [${item.title}](cases/${item.slug}.md)`);
     if (name === "Case") cursor = 0;
     for (const step of item.steps) {
       const stepIndex = page.indexOf(`${step.label} — ${step.title}`, cursor);

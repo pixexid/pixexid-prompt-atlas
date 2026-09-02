@@ -14,7 +14,7 @@
 
 This is a curated, machine-readable atlas of **Multi-Reference AI Composition** recipes. Every case below shows its ordered public inputs and each intermediate output, followed by the final result—so the complete method is visible without leaving GitHub.
 
-## 01 — [Inez Begins the Morning Ritual](cases/inez-begins-the-morning-ritual-092dc26f-779a-5d11-a834-c874e0cbefac.md)
+## [Inez Begins the Morning Ritual](cases/inez-begins-the-morning-ritual-092dc26f-779a-5d11-a834-c874e0cbefac.md)
 
 A multi-reference AI composition prompt stages a consistent older persona applying Verdessa fragrance beside a low branded candle, followed by a precise image-editing prompt that corrects the detached lid while preserving the scene.
 
@@ -162,7 +162,7 @@ Preserve everything else in Image 1 exactly unchanged: Inez's identity, face, ag
 
 [Exact prompt and provenance](cases/inez-begins-the-morning-ritual-092dc26f-779a-5d11-a834-c874e0cbefac.md) · [Canonical image](https://pixexid.com/i/inez-begins-the-morning-ritual-092dc26f-779a-5d11-a834-c874e0cbefac) · [Public recipe](https://pixexid.com/ai-composition/d49857c8-e595-4f0d-8911-da7f864d02d1)
 
-## 02 — [Dev Builds a Folded Paper Form](cases/dev-builds-a-folded-paper-form-ac4ae603-d1fa-547c-ae4c-db37eb39eb77.md)
+## [Dev Builds a Folded Paper Form](cases/dev-builds-a-folded-paper-form-ac4ae603-d1fa-547c-ae4c-db37eb39eb77.md)
 
 A wide studio scene tests Dev’s identity, lean proportions, hands, eyebrow scar, and physical interaction with a three-panel sculpture.
 
@@ -244,7 +244,7 @@ Constraints: one Dev, exactly three sculpture panels, one brass connector intera
 
 [Exact prompt and provenance](cases/dev-builds-a-folded-paper-form-ac4ae603-d1fa-547c-ae4c-db37eb39eb77.md) · [Canonical image](https://pixexid.com/i/dev-builds-a-folded-paper-form-ac4ae603-d1fa-547c-ae4c-db37eb39eb77) · [Public recipe](https://pixexid.com/ai-composition/c5fa9811-5b24-4bf1-b4a4-ef28506cd382)
 
-## 03 — [Dev on the Rainwashed Boardwalk](cases/dev-on-the-rainwashed-boardwalk-2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7.md)
+## [Dev on the Rainwashed Boardwalk](cases/dev-on-the-rainwashed-boardwalk-2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7.md)
 
 A full-body walking scene tests Dev’s lean long-limbed proportions, hair, clean-shaven identity, and motion under a wardrobe change.
 
@@ -326,7 +326,7 @@ Constraints: one Dev only; full body and both shoes visible; physically plausibl
 
 [Exact prompt and provenance](cases/dev-on-the-rainwashed-boardwalk-2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7.md) · [Canonical image](https://pixexid.com/i/dev-on-the-rainwashed-boardwalk-2d33ce3c-a2b4-5f94-a4f7-690c7471c9b7) · [Public recipe](https://pixexid.com/ai-composition/c5fa9811-5b24-4bf1-b4a4-ef28506cd382)
 
-## 04 — [Dev Laughing in the Greenhouse](cases/dev-laughing-in-the-greenhouse-03d91188-a399-5cff-a679-76036c37a3db.md)
+## [Dev Laughing in the Greenhouse](cases/dev-laughing-in-the-greenhouse-03d91188-a399-5cff-a679-76036c37a3db.md)
 
 A candid greenhouse portrait tests whether Dev’s expressive face preserves his angular structure, eyebrow scar, skin texture, and wavy hair.
 
@@ -409,7 +409,7 @@ Constraints: one Dev only; preserve identity. No skin smoothing, scar removal or
 
 [Exact prompt and provenance](cases/dev-laughing-in-the-greenhouse-03d91188-a399-5cff-a679-76036c37a3db.md) · [Canonical image](https://pixexid.com/i/dev-laughing-in-the-greenhouse-03d91188-a399-5cff-a679-76036c37a3db) · [Public recipe](https://pixexid.com/ai-composition/c5fa9811-5b24-4bf1-b4a4-ef28506cd382)
 
-## 05 — [Mara Brings Tavi to Life](cases/mara-brings-tavi-to-life-8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c.md)
+## [Mara Brings Tavi to Life](cases/mara-brings-tavi-to-life-8afa70b8-8ab0-5349-a8b3-8cfa8ff37f6c.md)
 
 Compose a playful brand campaign that turns a character reference into a life-size paper sculpture while preserving a persona, product, and logo.
 
