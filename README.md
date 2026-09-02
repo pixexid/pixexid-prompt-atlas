@@ -141,6 +141,90 @@ A wide studio scene tests Dev’s identity, lean proportions, hands, eyebrow sca
 
 [Exact prompt and provenance](cases/dev-builds-a-folded-paper-form-ac4ae603-d1fa-547c-ae4c-db37eb39eb77.md) · [Canonical image](https://pixexid.com/i/dev-builds-a-folded-paper-form-ac4ae603-d1fa-547c-ae4c-db37eb39eb77) · [Public recipe](https://pixexid.com/ai-composition/c5fa9811-5b24-4bf1-b4a4-ef28506cd382)
 
+## 05 — [Create a Verdessa Gold-Foil Fragrance Bottle](cases/create-a-verdessa-gold-foil-fragrance-bottle-b31ce8a0-f972-52b0-ab6b-c7d328e212c7.md)
+
+An AI product-branding prompt applies the official Verdessa head mark as a precise flat gold-foil surface treatment on a compact green glass fragrance bottle.
+
+<table>
+<tr>
+<td align="center" valign="top">
+<strong>1. Product</strong><br>
+<a href="https://pixexid.com/api/creative-assets/90a46f73-fc78-57f5-a88f-e8a1397940e4/public?imageId=b31ce8a0-f972-52b0-ab6b-c7d328e212c7"><img src="https://pixexid.com/api/creative-assets/90a46f73-fc78-57f5-a88f-e8a1397940e4/public?imageId=b31ce8a0-f972-52b0-ab6b-c7d328e212c7" alt="Unbranded Forest-Green Fragrance Bottle" width="150"></a><br>
+<sub>Unbranded Forest-Green Fragrance Bottle</sub>
+</td>
+<td align="center" valign="top">
+<strong>2. Logo</strong><br>
+<a href="https://pixexid.com/api/creative-assets/dbbd1a71-434c-5fb6-ac58-940ac125ec35/public?imageId=b31ce8a0-f972-52b0-ab6b-c7d328e212c7"><img src="https://pixexid.com/api/creative-assets/dbbd1a71-434c-5fb6-ac58-940ac125ec35/public?imageId=b31ce8a0-f972-52b0-ab6b-c7d328e212c7" alt="Verdessa Head Mark" width="150"></a><br>
+<sub>Verdessa Head Mark</sub>
+</td>
+</tr>
+</table>
+
+<p align="center"><strong>Ordered references → Final AI Image Composition</strong></p>
+
+<p align="center">
+<a href="https://pixexid.com/i/create-a-verdessa-gold-foil-fragrance-bottle-b31ce8a0-f972-52b0-ab6b-c7d328e212c7"><img src="https://images.pixexid.com/create-a-verdessa-gold-foil-fragrance-bottle-b31ce8a0-f972-52b0-ab6b-c7d328e212c7.jpg" alt="Create a Verdessa Gold-Foil Fragrance Bottle" width="760"></a><br>
+<strong>Create a Verdessa Gold-Foil Fragrance Bottle</strong>
+</p>
+
+[Exact prompt and provenance](cases/create-a-verdessa-gold-foil-fragrance-bottle-b31ce8a0-f972-52b0-ab6b-c7d328e212c7.md) · [Canonical image](https://pixexid.com/i/create-a-verdessa-gold-foil-fragrance-bottle-b31ce8a0-f972-52b0-ab6b-c7d328e212c7) · [Public recipe](https://pixexid.com/ai-composition/d49857c8-e595-4f0d-8911-da7f864d02d1)
+
+## 06 — [Create a Verdessa Wordmark Candle Vessel](cases/create-a-verdessa-wordmark-candle-vessel-70dde41e-f798-5a00-aebf-d383125a37ba.md)
+
+An AI product-branding prompt rebuilds seamless green glass and applies the official Verdessa wordmark directly to a low candle vessel.
+
+<table>
+<tr>
+<td align="center" valign="top">
+<strong>1. Product</strong><br>
+<a href="https://pixexid.com/api/creative-assets/2ed0199f-168f-5acf-a531-873ce2072d94/public?imageId=70dde41e-f798-5a00-aebf-d383125a37ba"><img src="https://pixexid.com/api/creative-assets/2ed0199f-168f-5acf-a531-873ce2072d94/public?imageId=70dde41e-f798-5a00-aebf-d383125a37ba" alt="Unbranded Low Green Candle Vessel" width="150"></a><br>
+<sub>Unbranded Low Green Candle Vessel</sub>
+</td>
+<td align="center" valign="top">
+<strong>2. Logo</strong><br>
+<a href="https://pixexid.com/api/creative-assets/1bc7dae8-581e-58b3-a3b9-c6064ab9c6ba/public?imageId=70dde41e-f798-5a00-aebf-d383125a37ba"><img src="https://pixexid.com/api/creative-assets/1bc7dae8-581e-58b3-a3b9-c6064ab9c6ba/public?imageId=70dde41e-f798-5a00-aebf-d383125a37ba" alt="Verdessa Wordmark" width="150"></a><br>
+<sub>Verdessa Wordmark</sub>
+</td>
+</tr>
+</table>
+
+<p align="center"><strong>Ordered references → Final AI Image Composition</strong></p>
+
+<p align="center">
+<a href="https://pixexid.com/i/create-a-verdessa-wordmark-candle-vessel-70dde41e-f798-5a00-aebf-d383125a37ba"><img src="https://images.pixexid.com/create-a-verdessa-wordmark-candle-vessel-70dde41e-f798-5a00-aebf-d383125a37ba.jpg" alt="Create a Verdessa Wordmark Candle Vessel" width="760"></a><br>
+<strong>Create a Verdessa Wordmark Candle Vessel</strong>
+</p>
+
+[Exact prompt and provenance](cases/create-a-verdessa-wordmark-candle-vessel-70dde41e-f798-5a00-aebf-d383125a37ba.md) · [Canonical image](https://pixexid.com/i/create-a-verdessa-wordmark-candle-vessel-70dde41e-f798-5a00-aebf-d383125a37ba) · [Public recipe](https://pixexid.com/ai-composition/d49857c8-e595-4f0d-8911-da7f864d02d1)
+
+## 07 — [Inez Begins the Morning Ritual](cases/inez-begins-the-morning-ritual-092dc26f-779a-5d11-a834-c874e0cbefac.md)
+
+A multi-reference AI composition prompt stages a consistent older persona applying Verdessa fragrance beside a low branded candle, followed by a precise image-editing prompt that corrects the detached lid while preserving the scene.
+
+<table>
+<tr>
+<td align="center" valign="top">
+<strong>1. Composition</strong><br>
+<a href="https://pixexid.com/api/creative-assets/530f8ede-be31-5c19-aecf-6e9cddecbfd5/public?imageId=092dc26f-779a-5d11-a834-c874e0cbefac"><img src="https://pixexid.com/api/creative-assets/530f8ede-be31-5c19-aecf-6e9cddecbfd5/public?imageId=092dc26f-779a-5d11-a834-c874e0cbefac" alt="Inez Morning Ritual — Initial Composition" width="150"></a><br>
+<sub>Inez Morning Ritual — Initial Composition</sub>
+</td>
+<td align="center" valign="top">
+<strong>2. Product</strong><br>
+<a href="https://pixexid.com/api/creative-assets/bebac7d8-ed58-5283-aea1-4f288183d814/public?imageId=092dc26f-779a-5d11-a834-c874e0cbefac"><img src="https://pixexid.com/api/creative-assets/bebac7d8-ed58-5283-aea1-4f288183d814/public?imageId=092dc26f-779a-5d11-a834-c874e0cbefac" alt="Verdessa Candle Vessel" width="150"></a><br>
+<sub>Verdessa Candle Vessel</sub>
+</td>
+</tr>
+</table>
+
+<p align="center"><strong>Ordered references → Final AI Image Composition</strong></p>
+
+<p align="center">
+<a href="https://pixexid.com/i/inez-begins-the-morning-ritual-092dc26f-779a-5d11-a834-c874e0cbefac"><img src="https://images.pixexid.com/inez-begins-the-morning-ritual-092dc26f-779a-5d11-a834-c874e0cbefac.jpg" alt="Inez Begins the Morning Ritual" width="760"></a><br>
+<strong>Inez Begins the Morning Ritual</strong>
+</p>
+
+[Exact prompt and provenance](cases/inez-begins-the-morning-ritual-092dc26f-779a-5d11-a834-c874e0cbefac.md) · [Canonical image](https://pixexid.com/i/inez-begins-the-morning-ritual-092dc26f-779a-5d11-a834-c874e0cbefac) · [Public recipe](https://pixexid.com/ai-composition/d49857c8-e595-4f0d-8911-da7f864d02d1)
+
 ## Use the structured data
 
 Each case includes its ordered references, exact public prompt, model, dimensions, tags, palette, recipe metadata, and SHA-256 provenance in [`data/cases.json`](data/cases.json). The schema is [`schema/cases.schema.json`](schema/cases.schema.json).
