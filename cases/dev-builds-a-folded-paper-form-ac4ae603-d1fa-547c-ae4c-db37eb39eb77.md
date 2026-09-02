@@ -1,10 +1,51 @@
 # Dev Builds a Folded Paper Form — Multi-Reference AI Composition
 
-**AI Image Composition recipe:** 2 ordered visual references → one final artwork.
+**AI Image Composition recipe:** 2 steps → one final artwork.
 
 A wide studio scene tests Dev’s identity, lean proportions, hands, eyebrow scar, and physical interaction with a three-panel sculpture.
 
 ## Ordered references → final result
+
+### Step 1 — Dev Neutral Character Sheet
+
+<table>
+<tr>
+<td align="center" valign="top">
+<strong>1. Identity</strong><br>
+<a href="https://pixexid.com/api/creative-assets/4f2152ff-e18d-5cdf-af80-69f4e1e53aed/public?imageId=ac4ae603-d1fa-547c-ae4c-db37eb39eb77"><img src="https://pixexid.com/api/creative-assets/4f2152ff-e18d-5cdf-af80-69f4e1e53aed/public?imageId=ac4ae603-d1fa-547c-ae4c-db37eb39eb77" alt="Dev Neutral Identity Anchor" width="150"></a><br>
+<sub>Dev Neutral Identity Anchor</sub>
+</td>
+<td align="center" valign="top">
+<strong>2. Reference</strong><br>
+<a href="https://pixexid.com/api/creative-assets/d75c0cdf-6a40-5ed1-a536-681a97af01b0/public?imageId=ac4ae603-d1fa-547c-ae4c-db37eb39eb77"><img src="https://pixexid.com/api/creative-assets/d75c0cdf-6a40-5ed1-a536-681a97af01b0/public?imageId=ac4ae603-d1fa-547c-ae4c-db37eb39eb77" alt="Approved Masculine Person Sheet Layout" width="150"></a><br>
+<sub>Approved Masculine Person Sheet Layout</sub>
+</td>
+</tr>
+</table>
+
+<p align="center"><strong>Ordered references → Step output</strong></p>
+
+<p align="center">
+<a href="https://pixexid.com/api/creative-assets/0f72c85b-1306-500e-a991-fb7cbf7e0576/public?imageId=ac4ae603-d1fa-547c-ae4c-db37eb39eb77"><img src="https://pixexid.com/api/creative-assets/0f72c85b-1306-500e-a991-fb7cbf7e0576/public?imageId=ac4ae603-d1fa-547c-ae4c-db37eb39eb77" alt="Dev Neutral Character Sheet" width="760"></a><br>
+<strong>Dev Neutral Character Sheet</strong>
+</p>
+
+<details>
+<summary>Exact prompt for Step 1</summary>
+
+```text
+Use case: identity-preserve
+Asset type: neutral full-turnaround character sheet for future image edits
+Input roles: Image 1 is the only identity authority for Dev. Image 2 is the approved Pixexid masculine person-sheet layout, clothing logic, panel structure, lighting, and neutral-reference style only; do not copy Niko's face, hair, skin, age, stubble, or stocky body shape.
+Primary request: Create Dev's character sheet using Image 2's exact information structure. Preserve Dev's recognizable fictional identity from Image 1: apparent age around 24, medium-deep warm brown skin, long softly angular face, dark brown almond-shaped eyes, thick straight eyebrows, medium straight nose with slightly broad tip, defined cupid's bow with fuller lower lip, short thick wavy black hair with loose natural forelock and tapered sides, clean-shaven face, natural pores, faint cheek acne texture, small diagonal scar through the outer left eyebrow, subtle facial asymmetry, and lean athletic body with narrow shoulders and long limbs. Do not add facial hair or exaggerate muscles.
+Layout: On the left two-thirds, show five separate full-body views at the same scale and aligned head/body/feet: front, three-quarter front, profile, three-quarter back, and back. On the upper right, show six equally sized head-and-shoulder expressions: neutral, subtle smile, joyful laugh, focused determination, sadness, and surprise. On the lower right, show three detail studies: wavy forelock plus tapered hairline, dark eye plus eyebrow scar and skin texture, and relaxed natural hand. Leave the remaining lower-right area as plain background; no palette blocks.
+Neutral clothing: one consistent solid light cool-gray matte athletic outfit: a plain close-fitting sleeveless high-neck compression shirt ending at the natural waist and fitted mid-thigh compression shorts with a simple high waist. Smooth non-reflective fabric, no branding or decorative seams. Barefoot in all body views with feet and toes fully visible. Apply the same exact garment construction and color in every panel.
+Style/medium: high-resolution natural studio photography, even color-neutral softbox lighting, restrained shadows, consistent camera rendering, natural skin, hair, and fabric detail.
+Constraints: every panel is the same Dev with consistent age, face, eyebrow scar, hair shape, clean-shaven jaw, lean long-limbed proportions, anatomy, clothing, and lighting. No color swatches, text, headings, labels, letters, numbers, logos, patterns, stripes, layers, loose fabric, reflective material, jewelry, eyewear, footwear, props, scenery, watermark, or decorative elements. Avoid cropped feet, duplicated limbs, fused hands or toes, facial drift, scar migration, added beard or mustache, hair drift, broadening shoulders, muscle exaggeration, body-shape drift, or wardrobe drift.
+```
+</details>
+
+### Step 2 — Dev Builds a Folded Paper Form
 
 <table>
 <tr>
@@ -28,13 +69,26 @@ A wide studio scene tests Dev’s identity, lean proportions, hands, eyebrow sca
 <strong>Dev Builds a Folded Paper Form</strong>
 </p>
 
+<details>
+<summary>Exact prompt for Step 2</summary>
+
+```text
+Use case: identity-preserve
+Asset type: character consistency benchmark · wide object interaction
+Input roles: Image 1 is Dev's facial identity anchor. Image 2 establishes his complete body proportions, hair, eyebrow scar, hands, profile, rear view, and expressions. Use both only as identity references; create one new wide scene with one Dev, never reproduce the sheet or multiple versions of him.
+Primary request: Create a polished 16:9 editorial photograph inside an airy community design studio. Dev stands in a natural three-quarter full-body pose beside a waist-high freestanding paper sculpture made from exactly three large folded panels: warm cream, muted coral, and deep forest green. He wears matte indigo canvas coveralls over a rust-colored crewneck T-shirt with sleeves rolled once, plus simple tan work shoes. With his left hand he steadies the forest-green panel near its upper edge; with his right hand he carefully tightens one visible brass connector where the cream and coral panels meet. Show both hands clearly performing different, physically connected tasks. The sculpture must stand on its own low plywood platform with plausible folds, joints, weight, and contact shadows. Directional afternoon window light crosses the studio once; a workbench and paper offcuts remain softly secondary in the background.
+Identity locks: preserve Dev as the same fictional man around 24 with medium-deep warm brown skin, long softly angular face, dark brown almond eyes, thick straight eyebrows, diagonal scar through the outer left eyebrow, medium straight nose with slightly broad tip, defined cupid's bow and fuller lower lip, short thick wavy black hair with loose forelock and tapered sides, clean-shaven jaw, natural cheek texture, lean athletic build, narrow shoulders, and long limbs. The new clothing and task must not broaden or over-muscle him.
+Constraints: one Dev, exactly three sculpture panels, one brass connector interaction, full body visible. No scar removal or migration, added facial hair, hairstyle drift, body broadening, impossible balance, pasted objects, duplicated panels, duplicated hands, fused fingers, extra limbs, floating tools, text, logos, watermark, or conflicting light sources.
+```
+</details>
+
 Role labels and order come directly from the public Pixexid recipe.
 
 | Field | Value |
 | --- | --- |
 | Model | gpt-image-2 |
 | Format | 1672 × 941 jpeg |
-| Recipe | 2 public inputs · edit |
+| Recipe | 2 steps · 2 final-step inputs · edit |
 | Tags | `dev-character` `young-man` `identity-preservation` `photoreal-character` `design-studio` `paper-sculpture` `creative-process` `environmental-portrait` `multi-reference-edit` |
 | Canonical | [Pixexid image page](https://pixexid.com/i/dev-builds-a-folded-paper-form-ac4ae603-d1fa-547c-ae4c-db37eb39eb77) |
 | Composition | [Public AI Composition recipe](https://pixexid.com/ai-composition/c5fa9811-5b24-4bf1-b4a4-ef28506cd382) |
