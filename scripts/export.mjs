@@ -5,8 +5,11 @@ import { basename, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
-const sources = JSON.parse(await readFile(join(root, "data/sources.json"), "utf8"));
-const uuid = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+const sources = JSON.parse(
+  await readFile(join(root, "data/sources.json"), "utf8"),
+);
+const uuid =
+  /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 const projectCache = new Map();
 
 const fail = (message) => {
@@ -52,24 +55,36 @@ async function fetchCase(source) {
 
   const slug = basename(canonical.pathname);
   const [apiResponse, pageResponse, project] = await Promise.all([
-    fetch(`https://pixexid.com/api/picture/by-filename/${encodeURIComponent(slug)}`),
+    fetch(
+      `https://pixexid.com/api/picture/by-filename/${encodeURIComponent(slug)}`,
+    ),
     fetch(canonical),
     fetchProject(source.composition_url),
   ]);
   if (!apiResponse.ok || !pageResponse.ok || !project)
     fail(`Public source unavailable for ${slug}`);
 
-  const [record, html] = await Promise.all([apiResponse.json(), pageResponse.text()]);
+  const [record, html] = await Promise.all([
+    apiResponse.json(),
+    pageResponse.text(),
+  ]);
   const canonicalMatch = html.match(/<link rel="canonical" href="([^"]+)"/);
   const imageMatch = html.match(/<meta property="og:image" content="([^"]+)"/);
   if (canonicalMatch?.[1] !== source.canonical_url || !imageMatch)
     fail(`Public page metadata mismatch for ${slug}`);
-  if (!uuid.test(record.id) || record.approved !== true || !record.prompt || !record.aiModel)
+  if (
+    !uuid.test(record.id) ||
+    record.approved !== true ||
+    !record.prompt ||
+    !record.aiModel
+  )
     fail(`Incomplete or unapproved public record for ${slug}`);
   if (record.gen_meta?.provenance?.moderation !== "approved")
     fail(`Public provenance is not approved for ${slug}`);
 
-  const scene = project.scenes?.find((item) => item.output?.publicImageId === record.id);
+  const scene = project.scenes?.find(
+    (item) => item.output?.publicImageId === record.id,
+  );
   const step = scene?.steps?.at(-1);
   if (
     !step ||
@@ -79,26 +94,64 @@ async function fetchCase(source) {
   )
     fail(`Incomplete public recipe for ${slug}`);
 
-  const references = await Promise.all(
-    step.inputs.map(async ({ role, asset }, index) => {
-      const imageUrl = new URL(asset.mediaUrl, composition).href;
-      const response = await fetch(imageUrl);
-      if (!response.ok || !response.headers.get("content-type")?.startsWith("image/"))
-        fail(`Public reference ${index + 1} unavailable for ${slug}`);
-      return {
-        order: index + 1,
-        role,
-        id: asset.id,
-        title: asset.title,
-        description: asset.description,
-        prompt: asset.prompt,
-        model: asset.model,
-        kind: asset.kind,
-        dimensions: { width: asset.width, height: asset.height },
-        image_url: imageUrl,
-      };
-    }),
+  const publicAsset = async (asset, role, index, output = false) => {
+    const imageUrl = new URL(asset.mediaUrl, composition).href;
+    const response = await fetch(imageUrl);
+    if (
+      !response.ok ||
+      !response.headers.get("content-type")?.startsWith("image/")
+    )
+      fail(
+        `Public ${output ? "output" : "reference"} ${index + 1} unavailable for ${slug}`,
+      );
+    return {
+      order: index + 1,
+      role,
+      id: asset.id,
+      public_image_id: asset.publicImageId,
+      title: asset.title,
+      description: asset.description,
+      prompt: asset.prompt,
+      model: asset.model,
+      kind: asset.kind,
+      dimensions: { width: asset.width, height: asset.height },
+      image_url: imageUrl,
+    };
+  };
+  const rawSteps = await Promise.all(
+    scene.steps.map(async (item, index) => ({
+      order: index + 1,
+      scene_id: item.sceneId,
+      title: item.output.title,
+      prompt: item.output.prompt,
+      output: await publicAsset(item.output, "output", index, true),
+      references: await Promise.all(
+        item.inputs.map(({ role, asset }, inputIndex) =>
+          publicAsset(asset, role, inputIndex),
+        ),
+      ),
+    })),
   );
+  const stageIds = [...new Set(rawSteps.map((item) => item.scene_id))];
+  const stageTotals = new Map(
+    stageIds.map((id) => [
+      id,
+      rawSteps.filter((item) => item.scene_id === id).length,
+    ]),
+  );
+  const stageRevisions = new Map();
+  const steps = rawSteps.map((item) => {
+    const stage = stageIds.indexOf(item.scene_id) + 1;
+    const revision = (stageRevisions.get(item.scene_id) || 0) + 1;
+    stageRevisions.set(item.scene_id, revision);
+    return {
+      ...item,
+      stage,
+      revision,
+      label: `Step ${stage}${stageTotals.get(item.scene_id) > 1 ? ` · Revision ${revision}` : ""}`,
+    };
+  });
+  const references = steps.at(-1).references;
 
   return {
     id: record.id,
@@ -116,6 +169,8 @@ async function fetchCase(source) {
     image_url: imageMatch[1],
     composition_url: source.composition_url,
     references,
+    steps,
+    stage_count: stageIds.length,
     recipe: record.gen_meta.creative,
     provenance: record.gen_meta.provenance,
     output: record.gen_meta.output,
@@ -131,33 +186,48 @@ async function fetchCase(source) {
 }
 
 function recipeVisual(item) {
-  const inputs = item.references
-    .map(
-      (reference) => `<td align="center" valign="top">
+  return item.steps
+    .map((step) => {
+      const inputs = step.references
+        .map(
+          (reference) => `<td align="center" valign="top">
 <strong>${reference.order}. ${htmlEscape(roleLabel(reference.role))}</strong><br>
 <a href="${reference.image_url}"><img src="${reference.image_url}" alt="${htmlEscape(reference.title)}" width="150"></a><br>
 <sub>${htmlEscape(reference.title)}</sub>
 </td>`,
-    )
-    .join("\n");
-  return `<table>
+        )
+        .join("\n");
+      const final = step.order === item.steps.length;
+      return `### ${step.label} — ${htmlEscape(step.title)}
+
+<table>
 <tr>
 ${inputs}
 </tr>
 </table>
 
-<p align="center"><strong>Ordered references → Final AI Image Composition</strong></p>
+<p align="center"><strong>Ordered references → ${final ? "Final AI Image Composition" : "Step output"}</strong></p>
 
 <p align="center">
-<a href="${item.canonical_url}"><img src="${item.image_url}" alt="${htmlEscape(item.title)}" width="760"></a><br>
-<strong>${htmlEscape(item.title)}</strong>
-</p>`;
+<a href="${final ? item.canonical_url : step.output.image_url}"><img src="${final ? item.image_url : step.output.image_url}" alt="${htmlEscape(step.title)}" width="760"></a><br>
+<strong>${htmlEscape(step.title)}</strong>
+</p>
+
+<details>
+<summary>Exact prompt for ${step.label}</summary>
+
+\`\`\`text
+${step.prompt}
+\`\`\`
+</details>`;
+    })
+    .join("\n\n");
 }
 
 function caseMarkdown(item) {
   return `# ${item.title} — Multi-Reference AI Composition
 
-**AI Image Composition recipe:** ${item.references.length} ordered visual references → one final artwork.
+**AI Image Composition recipe:** ${item.stage_count} steps → one final artwork.
 
 ${item.description}
 
@@ -171,7 +241,7 @@ Role labels and order come directly from the public Pixexid recipe.
 | --- | --- |
 | Model | ${markdownEscape(item.model)} |
 | Format | ${item.dimensions.width} × ${item.dimensions.height} ${markdownEscape(item.output.format)} |
-| Recipe | ${item.references.length} public inputs · ${markdownEscape(item.recipe.kind)} |
+| Recipe | ${item.stage_count} steps · ${item.references.length} final-step inputs · ${markdownEscape(item.recipe.kind)} |
 | Tags | ${item.tags.map((tag) => `\`${tag}\``).join(" ")} |
 | Canonical | [Pixexid image page](${item.canonical_url}) |
 | Composition | [Public AI Composition recipe](${item.composition_url}) |
@@ -199,7 +269,10 @@ Catalog text and data are licensed under [CC BY 4.0](../LICENSE). Linked images 
 function readmeMarkdown(cases) {
   const gallery = cases
     .map(
-      (item, index) => `## ${String(index + 1).padStart(2, "0")} — [${item.title}](cases/${item.slug}.md)
+      (
+        item,
+        index,
+      ) => `## ${String(index + 1).padStart(2, "0")} — [${item.title}](cases/${item.slug}.md)
 
 ${item.description}
 
@@ -222,7 +295,7 @@ ${recipeVisual(item)}
   <a href="LICENSE-CODE"><img alt="MIT licensed code" src="https://img.shields.io/badge/code-MIT-D7A236"></a>
 </p>
 
-This is a curated, machine-readable atlas of **Multi-Reference AI Composition** recipes. Every case below shows all ordered public reference inputs once, followed by the final result—so the method is visible without leaving GitHub.
+This is a curated, machine-readable atlas of **Multi-Reference AI Composition** recipes. Every case below shows its ordered public inputs and each intermediate output, followed by the final result—so the complete method is visible without leaving GitHub.
 
 ${gallery}
 

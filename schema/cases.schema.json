@@ -12,10 +12,29 @@
       "items": {
         "type": "object",
         "required": [
-          "id", "slug", "title", "description", "prompt", "model",
-          "model_metadata", "tags", "colors", "dimensions", "created_at",
-          "canonical_url", "image_url", "composition_url", "references", "recipe",
-          "provenance", "output", "post_processing", "rights", "source_api"
+          "id",
+          "slug",
+          "title",
+          "description",
+          "prompt",
+          "model",
+          "model_metadata",
+          "tags",
+          "colors",
+          "dimensions",
+          "created_at",
+          "canonical_url",
+          "image_url",
+          "composition_url",
+          "references",
+          "steps",
+          "stage_count",
+          "recipe",
+          "provenance",
+          "output",
+          "post_processing",
+          "rights",
+          "source_api"
         ],
         "properties": {
           "id": { "type": "string", "format": "uuid" },
@@ -32,7 +51,18 @@
             "minItems": 1,
             "items": {
               "type": "object",
-              "required": ["order", "role", "id", "title", "description", "prompt", "model", "kind", "dimensions", "image_url"],
+              "required": [
+                "order",
+                "role",
+                "id",
+                "title",
+                "description",
+                "prompt",
+                "model",
+                "kind",
+                "dimensions",
+                "image_url"
+              ],
               "properties": {
                 "order": { "type": "integer", "minimum": 1 },
                 "role": { "type": "string", "minLength": 1 },
@@ -42,6 +72,25 @@
               }
             }
           },
+          "steps": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "order",
+                "scene_id",
+                "stage",
+                "revision",
+                "label",
+                "title",
+                "prompt",
+                "output",
+                "references"
+              ]
+            }
+          },
+          "stage_count": { "type": "integer", "minimum": 1 },
           "source_api": { "type": "string", "format": "uri" }
         }
       }
