@@ -473,8 +473,8 @@
       "id": "e831db80-248c-57f7-a77d-4a35f94520cd",
       "slug": "inez-begins-the-morning-ritual-e831db80-248c-57f7-a77d-4a35f94520cd",
       "title": "Inez Begins the Morning Ritual",
-      "description": "A corrected multi-reference ritual scene preserves Inez and the candle while featuring Verdessa’s accurate flat gold-foil bottle mark.",
-      "prompt": "Create a corrected 9:16 revision using the five ordered references. Reference 1 is the previous published composition and supplies only the overall morning-ritual concept and relationship between Inez, fragrance application, vanity, and candle. References 2 and 3 are Inez's identity anchor and neutral consistency sheet: preserve her recognizable older Black identity, short natural silver curls, facial structure, natural age detail, body proportions, and hands. Reference 4 is the corrected compact dark-green Verdessa fragrance bottle and is the exact product authority: preserve its flat antique-gold head logo, official orientation, face, leaf crown, internal negative spaces, faceted bottle, clear base, cap, and collar with no embossing. Reference 5 is the low green-glass candle vessel with alabaster lid. Recompose Inez at a warm-alabaster vanity just after sunrise in an elegant loose fern-green robe, applying fragrance to the inside of one wrist with anatomically clear hands and a calm half-smile. Keep the fragrance bottle as the readable brand focus. Place the lit candle nearby at a natural three-quarter rear angle so its branded front and wordmark are physically turned away from camera and no candle lettering is visible; preserve its green glass, proportions, flame, and lid. Use one coherent warm morning light direction and believable contact shadows. Do not reproduce the predecessor pixel for pixel; correct the bottle branding and redesign the crop naturally while keeping the same scene concept. No visible candle text, extra bottles, duplicated products, floating objects, label panels, de-aging, copied reference clothing, embossed or inverted bottle logo, or contradictory light sources.",
+      "description": "A final brand-accuracy correction preserves Inez and the gold-foil bottle while restoring the exact lowercase Verdessa candle wordmark.",
+      "prompt": "Correct only the candle branding in the supplied selected morning-ritual composition. Apply the supplied authoritative Verdessa wordmark directly to the visible front of the green glass candle as the exact all-lowercase text \"verdessa\", preserving its official letterforms, spacing, proportions, and pale antique-gold material treatment. Match the cylindrical glass surface, local illumination, reflections, scale, and placement. Preserve Inez, her identity and age detail, the fragrance application action, corrected gold-foil bottle mark, candle flame, lids, vanity, crop, lighting, shadows, and every other scene element unchanged.",
       "model": "gpt-image-2",
       "model_metadata": {
         "name": "gpt-image-2",
@@ -487,10 +487,9 @@
         "character-consistency",
         "product-staging",
         "beauty-campaign",
-        "older-woman",
         "morning-ritual",
         "fragrance",
-        "gold-foil",
+        "logo-fidelity",
         "verdessa"
       ],
       "colors": [
@@ -512,98 +511,53 @@
         {
           "order": 1,
           "role": "composition",
-          "id": "6a3e18f8-4470-59af-a7f9-a09ed7a3410a",
+          "id": "2ae01c0b-2de6-529d-a01f-0a2c3fbf64fb",
           "title": "Inez Begins the Morning Ritual",
-          "description": "A reusable multi-reference prompt stages a consistent older persona applying Verdessa fragrance in a warm morning ritual while preserving two branded products.",
-          "prompt": "Create a new 9:16 vertical editorial beauty campaign scene using the four ordered references. Reference 1 is Inez's identity anchor and reference 2 is her neutral consistency sheet: preserve her recognizable older Black identity, short natural silver curls, facial structure, skin texture, age detail, body proportions, and hands, while giving her a new natural pose, expression, wardrobe, and environment. Reference 3 is the exact dark-green Verdessa fragrance bottle with its gold head mark. Reference 4 is the exact low green-glass Verdessa candle vessel with its pale wordmark and alabaster lid. Stage Inez at a sculptural warm-alabaster vanity just after sunrise, wearing an elegant loose fern-green robe. She has removed the fragrance cap and is applying a small amount to the inside of one wrist, looking down with a quiet, content half-smile; make the hand action anatomically clear. Place the candle vessel nearby with a single soft flame, scaled correctly and resting securely on the stone. Preserve both products' geometry, materials, caps, logo forms, and readable Verdessa branding without duplicating either product. Soft directional morning light enters from one side and creates one coherent shadow direction, gentle glass reflections, and warm highlights on her skin. Compose this as an intimate lived moment rather than a catalog lineup, with shallow depth but both product identities still readable. No extra bottles, no floating objects, no invented label panels, no de-aged skin, no copied neutral reference clothing, and no contradictory light sources.",
+          "description": "A corrected multi-reference ritual scene preserves Inez and the candle while featuring Verdessa’s accurate flat gold-foil bottle mark.",
+          "prompt": "Create a corrected 9:16 revision using the five ordered references. Reference 1 is the previous published composition and supplies only the overall morning-ritual concept and relationship between Inez, fragrance application, vanity, and candle. References 2 and 3 are Inez's identity anchor and neutral consistency sheet: preserve her recognizable older Black identity, short natural silver curls, facial structure, natural age detail, body proportions, and hands. Reference 4 is the corrected compact dark-green Verdessa fragrance bottle and is the exact product authority: preserve its flat antique-gold head logo, official orientation, face, leaf crown, internal negative spaces, faceted bottle, clear base, cap, and collar with no embossing. Reference 5 is the low green-glass candle vessel with alabaster lid. Recompose Inez at a warm-alabaster vanity just after sunrise in an elegant loose fern-green robe, applying fragrance to the inside of one wrist with anatomically clear hands and a calm half-smile. Keep the fragrance bottle as the readable brand focus. Place the lit candle nearby at a natural three-quarter rear angle so its branded front and wordmark are physically turned away from camera and no candle lettering is visible; preserve its green glass, proportions, flame, and lid. Use one coherent warm morning light direction and believable contact shadows. Do not reproduce the predecessor pixel for pixel; correct the bottle branding and redesign the crop naturally while keeping the same scene concept. No visible candle text, extra bottles, duplicated products, floating objects, label panels, de-aging, copied reference clothing, embossed or inverted bottle logo, or contradictory light sources.",
           "model": "gpt-image-2",
           "kind": "image",
           "dimensions": {
             "width": 941,
             "height": 1672
           },
-          "image_url": "https://pixexid.com/api/creative-assets/6a3e18f8-4470-59af-a7f9-a09ed7a3410a/public?imageId=e831db80-248c-57f7-a77d-4a35f94520cd"
+          "image_url": "https://pixexid.com/api/creative-assets/2ae01c0b-2de6-529d-a01f-0a2c3fbf64fb/public?imageId=e831db80-248c-57f7-a77d-4a35f94520cd"
         },
         {
           "order": 2,
-          "role": "identity",
-          "id": "1989c85b-11fc-5f05-abf8-91e7872a026c",
-          "title": "Inez Neutral Identity Anchor",
-          "description": "Create an older fictional woman with preserved age detail, five aligned body views, expressive portraits, and neutral fitted reference clothing.",
-          "prompt": "Use case: photorealistic-natural\nAsset type: canonical neutral identity anchor for a reusable fictional character\nPrimary request: Create a photographic reference portrait of one entirely fictional older adult woman named Inez, approximately 72 years old. She has deep warm-brown skin, a softly square face with full cheeks, dark brown hooded eyes, gently arched silver-flecked eyebrows, a broad rounded nose, full lips, and short tightly coiled silver-gray hair forming a neat soft halo close to the head. Preserve natural pores, forehead lines, crow's feet, under-eye texture, smile lines, subtle age spots, and facial asymmetry; no beauty retouching, de-aging, or smoothing. She has a short, softly rounded sturdy build and wears a plain muted plum crewneck cotton T-shirt without text or graphics, no jewelry, no eyewear, and no accessories. She faces the camera with level shoulders and a calm neutral expression, lips gently closed.\nComposition: vertical 9:16 studio reference framed from just above the hair to the upper hips, with her face large enough to inspect and both sides unobscured. Even soft-gray seamless background, large color-neutral soft light slightly camera-left, gentle fill, restrained natural shadows, crisp hair, skin, and fabric detail.\nConstraints: one person, one portrait, not a collage or contact sheet. No props, environment, lettering, logos, dramatic grading, copied celebrity features, or cropped hair. Keep the identity distinctive, dignified, natural, and reproducible.",
-          "model": "gpt-image-2",
-          "kind": "persona",
-          "dimensions": {
-            "width": 941,
-            "height": 1672
-          },
-          "image_url": "https://pixexid.com/api/creative-assets/1989c85b-11fc-5f05-abf8-91e7872a026c/public?imageId=e831db80-248c-57f7-a77d-4a35f94520cd"
-        },
-        {
-          "order": 3,
-          "role": "reference",
-          "id": "87b534fb-6ede-5ab2-a8d5-6579ee6bd353",
-          "title": "Inez Neutral Character Sheet",
-          "description": "A neutral full-turnaround identity sheet for Inez with five body angles, expressions, and close details.",
-          "prompt": "Use case: identity-preserve\nAsset type: neutral full-turnaround character sheet for future image edits\nInput roles: Image 1 is the only identity authority for Inez. Image 2 is the approved Pixexid person-sheet layout, clothing logic, panel structure, lighting, and neutral-reference style only; do not copy Mara's face, hair, skin, age, or body shape.\nPrimary request: Create Inez's character sheet using Image 2's exact information structure. Preserve Inez's recognizable fictional identity from Image 1: apparent age around 72, deep warm-brown skin, softly square face with full cheeks, dark brown hooded eyes, gently arched silver-flecked eyebrows, broad rounded nose, full lips, short tightly coiled silver-gray hair forming a neat soft halo, visible pores, forehead lines, crow's feet, under-eye texture, smile lines, subtle age spots, facial asymmetry, and short softly rounded sturdy body proportions. Do not de-age, smooth, slim, or idealize her.\nLayout: On the left two-thirds, show five separate full-body views at the same scale and aligned head/body/feet: front, three-quarter front, profile, three-quarter back, and back. On the upper right, show six equally sized head-and-shoulder expressions: neutral, subtle smile, joyful laugh, focused determination, sadness, and surprise. On the lower right, show three detail studies: silver coil texture and hairline, hooded eye plus eyebrow and age texture, and relaxed natural hand with age detail. Leave the remaining lower-right area as plain background; no palette blocks.\nNeutral clothing: the approved solid light cool-gray matte athletic two-piece: a plain fitted sleeveless high-neck compression top ending at the natural waist and plain fitted high-waisted ankle-length compression leggings. Smooth non-reflective fabric, no branding or decorative seams. Barefoot in all body views with feet and toes fully visible. Apply the same exact garment construction and color in every panel without changing her natural body contours.\nStyle/medium: high-resolution natural studio photography, even color-neutral softbox lighting, restrained shadows, consistent camera rendering, natural skin, age texture, hair, and fabric detail.\nConstraints: every panel is the same Inez with consistent age, face, hair, sturdy proportions, anatomy, clothing, and lighting. No color swatches, text, headings, labels, letters, numbers, logos, patterns, stripes, layers, loose fabric, reflective material, jewelry, eyewear, footwear, props, scenery, watermark, or decorative elements. Avoid cropped feet, duplicated limbs, fused hands or toes, de-aging, skin smoothing, slimming, muscle exaggeration, facial drift, hair drift, body-shape drift, or wardrobe drift.",
-          "model": "gpt-image-2",
-          "kind": "persona",
-          "dimensions": {
-            "width": 1672,
-            "height": 941
-          },
-          "image_url": "https://pixexid.com/api/creative-assets/87b534fb-6ede-5ab2-a8d5-6579ee6bd353/public?imageId=e831db80-248c-57f7-a77d-4a35f94520cd"
-        },
-        {
-          "order": 4,
-          "role": "product",
-          "id": "f34f04ed-97cb-56ff-a288-e0cc74d3da5c",
-          "title": "Verdessa Gold-Foil Fragrance Bottle",
-          "description": "A corrected dark-green fragrance bottle using the authoritative head mark as a crisp flat antique-gold foil transfer.",
-          "prompt": "Edit the supplied unbranded dark forest-green glass fragrance bottle using the supplied official Verdessa head logo as the only branding authority. Apply the exact head logo to the center of the front glass as a thin, flat antique-gold hot-foil transfer or fired metallic screen print. Preserve the logo's original left-right orientation, facial features, leaf arrangement, negative spaces, outline proportions, and fine internal details exactly as shown in the logo reference. The mark must be surface-flat and crisp, with subtle metallic reflection that follows the bottle's front plane; it must not be embossed, debossed, carved, recessed, raised, mirrored, inverted, redrawn, simplified, or converted into a relief. Do not add the Verdessa wordmark, a label, plaque, medallion, border, panel, or other text. Keep the bottle's exact compact faceted geometry, dark green glass, thick clear base, green cap, brushed-gold collar, lighting, perspective, scale, and isolated transparent-background product composition unchanged. Output one polished photorealistic transparent PNG product reference with the correct official head logo clearly legible.",
-          "model": "gpt-image-2",
-          "kind": "product",
-          "dimensions": {
-            "width": 1254,
-            "height": 1254
-          },
-          "image_url": "https://pixexid.com/api/creative-assets/f34f04ed-97cb-56ff-a288-e0cc74d3da5c/public?imageId=e831db80-248c-57f7-a77d-4a35f94520cd"
-        },
-        {
-          "order": 5,
-          "role": "product",
-          "id": "e520f6c4-eaac-5a80-a921-4cd1d49d2b7e",
-          "title": "Verdessa Candle and Incense Vessel",
-          "description": "A low dark-green glass vessel with an alabaster lid and pale Verdessa wordmark printed directly on the glass.",
+          "role": "logo",
+          "id": "a0d82fff-c08b-5369-ae2e-de72c2c12196",
+          "title": "Verdessa Lowercase Wordmark",
+          "description": "The authoritative all-lowercase Verdessa wordmark prepared as a transparent reference for exact surface placement.",
           "prompt": "",
-          "model": "gpt-image-2",
-          "kind": "product",
+          "model": null,
+          "kind": "logo",
           "dimensions": {
-            "width": 1254,
-            "height": 1254
+            "width": 688,
+            "height": 132
           },
-          "image_url": "https://pixexid.com/api/creative-assets/e520f6c4-eaac-5a80-a921-4cd1d49d2b7e/public?imageId=e831db80-248c-57f7-a77d-4a35f94520cd"
+          "image_url": "https://pixexid.com/api/creative-assets/a0d82fff-c08b-5369-ae2e-de72c2c12196/public?imageId=e831db80-248c-57f7-a77d-4a35f94520cd"
         }
       ],
       "recipe": {
         "kind": "edit",
-        "assetId": "2ae01c0b-2de6-529d-a01f-0a2c3fbf64fb",
+        "assetId": "de550666-e0b1-523a-a741-3fa64a28bbae",
         "sceneId": "d9957c76-c2cd-50c8-bf56-8e34630a0f6e",
         "version": 1,
-        "inputCount": 5,
+        "inputCount": 2,
         "shareInputs": true,
         "collectionId": "abf9e2bd-e7dd-518b-890d-b1acdd1e5160"
       },
       "provenance": {
-        "sha256": "87707e84f5a852ae49ab35379ee522aa1c911590c485c54662b99abdc9d48d04",
+        "sha256": "42c69b2ad6e37aa9580550d1fd44bd70933e1d09aa22121d3dfb53de672683e5",
         "moderation": "approved",
-        "storage_key": "inez-begins-the-morning-ritual-f6fdc26b-a22b-5ffb-a330-a65284b1acd3.jpg",
-        "generated_on": "2026-09-01T23:29:13.078Z",
-        "source_sha256": "8f05095c7b042a03d1202108a96978fc03a8951f897c496416ea832dd920cfa4",
-        "import_manifest_sha256": "a2706c57195b48c3c43cb3b6bfeed9aa61989dbb9a8bb20ffe1ae2bb8e5627c9"
+        "storage_key": "inez-begins-the-morning-ritual-3ebf52b7-e284-5923-ae4f-6e313e2637cf.jpg",
+        "generated_on": "2026-09-02T00:19:12.381Z",
+        "source_sha256": "9b771bc6b57ea2a904297d7d81970dec83b1d224eacedeccfb9a7e0680ddcba3",
+        "import_manifest_sha256": "798378dcf22045fb4dbca66121a8163301b5354ac58baf85a0dc64ecba954dfe"
       },
       "output": {
-        "bytes": 93429,
+        "bytes": 93920,
         "width": 941,
         "format": "jpeg",
         "height": 1672,

@@ -143,34 +143,19 @@ A wide studio scene tests Dev’s identity, lean proportions, hands, eyebrow sca
 
 ## 05 — [Inez Begins the Morning Ritual](cases/inez-begins-the-morning-ritual-e831db80-248c-57f7-a77d-4a35f94520cd.md)
 
-A corrected multi-reference ritual scene preserves Inez and the candle while featuring Verdessa’s accurate flat gold-foil bottle mark.
+A final brand-accuracy correction preserves Inez and the gold-foil bottle while restoring the exact lowercase Verdessa candle wordmark.
 
 <table>
 <tr>
 <td align="center" valign="top">
 <strong>1. Composition</strong><br>
-<a href="https://pixexid.com/api/creative-assets/6a3e18f8-4470-59af-a7f9-a09ed7a3410a/public?imageId=e831db80-248c-57f7-a77d-4a35f94520cd"><img src="https://pixexid.com/api/creative-assets/6a3e18f8-4470-59af-a7f9-a09ed7a3410a/public?imageId=e831db80-248c-57f7-a77d-4a35f94520cd" alt="Inez Begins the Morning Ritual" width="150"></a><br>
+<a href="https://pixexid.com/api/creative-assets/2ae01c0b-2de6-529d-a01f-0a2c3fbf64fb/public?imageId=e831db80-248c-57f7-a77d-4a35f94520cd"><img src="https://pixexid.com/api/creative-assets/2ae01c0b-2de6-529d-a01f-0a2c3fbf64fb/public?imageId=e831db80-248c-57f7-a77d-4a35f94520cd" alt="Inez Begins the Morning Ritual" width="150"></a><br>
 <sub>Inez Begins the Morning Ritual</sub>
 </td>
 <td align="center" valign="top">
-<strong>2. Identity</strong><br>
-<a href="https://pixexid.com/api/creative-assets/1989c85b-11fc-5f05-abf8-91e7872a026c/public?imageId=e831db80-248c-57f7-a77d-4a35f94520cd"><img src="https://pixexid.com/api/creative-assets/1989c85b-11fc-5f05-abf8-91e7872a026c/public?imageId=e831db80-248c-57f7-a77d-4a35f94520cd" alt="Inez Neutral Identity Anchor" width="150"></a><br>
-<sub>Inez Neutral Identity Anchor</sub>
-</td>
-<td align="center" valign="top">
-<strong>3. Reference</strong><br>
-<a href="https://pixexid.com/api/creative-assets/87b534fb-6ede-5ab2-a8d5-6579ee6bd353/public?imageId=e831db80-248c-57f7-a77d-4a35f94520cd"><img src="https://pixexid.com/api/creative-assets/87b534fb-6ede-5ab2-a8d5-6579ee6bd353/public?imageId=e831db80-248c-57f7-a77d-4a35f94520cd" alt="Inez Neutral Character Sheet" width="150"></a><br>
-<sub>Inez Neutral Character Sheet</sub>
-</td>
-<td align="center" valign="top">
-<strong>4. Product</strong><br>
-<a href="https://pixexid.com/api/creative-assets/f34f04ed-97cb-56ff-a288-e0cc74d3da5c/public?imageId=e831db80-248c-57f7-a77d-4a35f94520cd"><img src="https://pixexid.com/api/creative-assets/f34f04ed-97cb-56ff-a288-e0cc74d3da5c/public?imageId=e831db80-248c-57f7-a77d-4a35f94520cd" alt="Verdessa Gold-Foil Fragrance Bottle" width="150"></a><br>
-<sub>Verdessa Gold-Foil Fragrance Bottle</sub>
-</td>
-<td align="center" valign="top">
-<strong>5. Product</strong><br>
-<a href="https://pixexid.com/api/creative-assets/e520f6c4-eaac-5a80-a921-4cd1d49d2b7e/public?imageId=e831db80-248c-57f7-a77d-4a35f94520cd"><img src="https://pixexid.com/api/creative-assets/e520f6c4-eaac-5a80-a921-4cd1d49d2b7e/public?imageId=e831db80-248c-57f7-a77d-4a35f94520cd" alt="Verdessa Candle and Incense Vessel" width="150"></a><br>
-<sub>Verdessa Candle and Incense Vessel</sub>
+<strong>2. Logo</strong><br>
+<a href="https://pixexid.com/api/creative-assets/a0d82fff-c08b-5369-ae2e-de72c2c12196/public?imageId=e831db80-248c-57f7-a77d-4a35f94520cd"><img src="https://pixexid.com/api/creative-assets/a0d82fff-c08b-5369-ae2e-de72c2c12196/public?imageId=e831db80-248c-57f7-a77d-4a35f94520cd" alt="Verdessa Lowercase Wordmark" width="150"></a><br>
+<sub>Verdessa Lowercase Wordmark</sub>
 </td>
 </tr>
 </table>
