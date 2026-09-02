@@ -269,10 +269,7 @@ Catalog text and data are licensed under [CC BY 4.0](../LICENSE). Linked images 
 function readmeMarkdown(cases) {
   const gallery = cases
     .map(
-      (
-        item,
-        index,
-      ) => `## ${String(index + 1).padStart(2, "0")} — [${item.title}](cases/${item.slug}.md)
+      (item) => `## [${item.title}](cases/${item.slug}.md)
 
 ${item.description}
 
