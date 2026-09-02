@@ -45,6 +45,14 @@ assert(
   "Duplicate ids",
 );
 assert(
+  catalog.cases.every(
+    (item, index) =>
+      index === 0 ||
+      catalog.cases[index - 1].created_at.localeCompare(item.created_at) >= 0,
+  ),
+  "Cases are not ordered newest first",
+);
+assert(
   readme.includes("AI Image Compositions") &&
     readme.includes("Multi-Reference AI Composition"),
   "README positioning missing",
